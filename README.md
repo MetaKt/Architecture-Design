@@ -32,8 +32,9 @@ The choice of technology stack for a React.js project typically involves selecti
 9)	Linting and Code Formatting (e.g., ESLint, Prettier): Linting and code formatting tools help maintain code quality and consistency across a project. ESLint is a popular JavaScript linter, and Prettier is a code format that helps ensure consistent code style.
 10)	Backend Technologies (e.g., Express.js, GraphQL): Depending on the requirements of the project, various backend technologies may be used to build APIs and handle server-side logic. Express.js is a popular choice for building RESTful APIs, while GraphQL is a query language and runtime for APIs that provides a more flexible and efficient alternative to REST.
 
-Problem space to solution space
+5. Problem space to solution space
 Problem Space in React.js:
+
 •	The problem space in React.js involves understanding and defining the requirements, challenges, and constraints of building user interfaces and applications.
 •	This includes considerations such as:
 •	Managing complex UI components and their interactions.
@@ -52,7 +53,7 @@ Solution Space in React.js:
 •	Adhering to established design patterns and architectural principles such as container/presentational components, higher-order components (HOCs), render props, and hooks.
 •	In the solution space of React.js, developers explore and experiment with different approaches to address the challenges posed by building user interfaces and applications using React.js.
 
-Identify stakeholders
+6. Identify stakeholders
 - users
 - developers
 - browser vendors such as Google, Microsoft, Firefox
