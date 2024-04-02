@@ -34,24 +34,22 @@ The choice of technology stack for a React.js project typically involves selecti
 
 5. Problem space to solution space
 Problem Space in React.js:
-
-•	The problem space in React.js involves understanding and defining the requirements, challenges, and constraints of building user interfaces and applications.
-•	This includes considerations such as:
-•	Managing complex UI components and their interactions.
-•	Handling state management efficiently, especially in large-scale applications.
-•	Optimizing performance and responsiveness of the user interface.
-•	Implementing effective data flow between components.
-•	Addressing challenges related to code organization, scalability, and maintainability.
-•	In the problem space of React.js, developers focus on analyzing the requirements, identifying potential issues, and gaining insights into the best practices and patterns for building React applications.
+The problem space in React.js involves understanding and defining the requirements, challenges, and constraints of building user interfaces and applications. This includes considerations such as:
+Managing complex UI components and their interactions.
+Handling state management efficiently, especially in large-scale applications.
+Optimizing performance and responsiveness of the user interface.
+Implementing effective data flow between components.
+Addressing challenges related to code organization, scalability, and maintainability.
+In the problem space of React.js, developers focus on analyzing the requirements, identifying potential issues, and gaining insights into the best practices and patterns for building React applications.
 Solution Space in React.js:
-•	The solution space in React.js comprises the various techniques, libraries, patterns, and best practices available to address the challenges identified in the problem space.
-•	This includes:
-•	Using React's component-based architecture to break down UI elements into reusable and composable components.
-•	Leveraging React's state management capabilities, including local component state, context API, or external state management libraries like Redux or MobX.
-•	Employing performance optimization techniques such as memoization, virtual DOM, and code splitting.
-•	Implementing efficient data flow patterns like unidirectional data flow (via props and callbacks) or centralized state management (with libraries like Redux).
-•	Adhering to established design patterns and architectural principles such as container/presentational components, higher-order components (HOCs), render props, and hooks.
-•	In the solution space of React.js, developers explore and experiment with different approaches to address the challenges posed by building user interfaces and applications using React.js.
+The solution space in React.js comprises the various techniques, libraries, patterns, and best practices available to address the challenges identified in the problem space.
+This includes:
+Using React's component-based architecture to break down UI elements into reusable and composable components.
+Leveraging React's state management capabilities, including local component state, context API, or external state management libraries like Redux or MobX.
+Employing performance optimization techniques such as memoization, virtual DOM, and code splitting.
+Implementing efficient data flow patterns like unidirectional data flow (via props and callbacks) or centralized state management (with libraries like Redux).
+Adhering to established design patterns and architectural principles such as container/presentational components, higher-order components (HOCs), render props, and hooks.
+In the solution space of React.js, developers explore and experiment with different approaches to address the challenges posed by building user interfaces and applications using React.js.
 
 6. Identify stakeholders
 - users
