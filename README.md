@@ -21,16 +21,16 @@ Overall, React Native is a powerful framework for building mobile applications w
 
 4. Early architecture design decision
 The choice of technology stack for a React.js project typically involves selecting the supporting technologies and tools that complement React.js for building a robust web application. While React.js itself is a JavaScript library for building user interfaces, a complete technology stack for a React.js project often includes several other components to handle different aspects of development. Here's a typical technology stack for a React.js project:
-1)	React.js: React.js is the core library for building user interfaces. It enables developers to create reusable UI components and manage their state efficiently.
-2)	Node.js: Node.js is a JavaScript runtime environment that allows developers to run JavaScript code on the server side. It is commonly used with React.js for server-side rendering, creating APIs, and handling backend logic.
-3)	Webpack: Webpack is a module bundler that is often used in React.js projects to bundle JavaScript files, CSS files, and other assets. It helps optimize the performance of the application by reducing the number of HTTP requests and enabling features like code splitting and hot module replacement.
-4)	Babel: Babel is a JavaScript compiler that is used to transpile modern JavaScript code (ES6/ES7 and beyond) into a backward-compatible version of JavaScript that can run in older browsers. It is often used in React.js projects to enable the use of modern JavaScript features.
-5)	Redux (optional): Redux is a predictable state container for JavaScript applications. It is commonly used in React.js projects for managing the application's state in a centralized store, especially in larger applications with complex state management needs.
-6)	React Router: React Router is a popular routing library for React.js applications. It allows developers to define routes and navigate between different views/components in a single-page application (SPA).
-7)	CSS Preprocessors (e.g., Sass, Less): CSS preprocessors like Sass or Less are often used in React.js projects to write CSS in a more structured and maintainable way. They offer features like variables, mixins, and nested rules that make styling easier and more efficient.
-8)	Testing Frameworks (e.g., Jest, React Testing Library): Testing is an essential part of any software development process. Jest is a popular testing framework for JavaScript applications, and React Testing Library is a testing utility specifically designed for testing React components.
-9)	Linting and Code Formatting (e.g., ESLint, Prettier): Linting and code formatting tools help maintain code quality and consistency across a project. ESLint is a popular JavaScript linter, and Prettier is a code format that helps ensure consistent code style.
-10)	Backend Technologies (e.g., Express.js, GraphQL): Depending on the requirements of the project, various backend technologies may be used to build APIs and handle server-side logic. Express.js is a popular choice for building RESTful APIs, while GraphQL is a query language and runtime for APIs that provides a more flexible and efficient alternative to REST.
+- React.js: React.js is the core library for building user interfaces. It enables developers to create reusable UI components and manage their state efficiently.
+-	Node.js: Node.js is a JavaScript runtime environment that allows developers to run JavaScript code on the server side. It is commonly used with React.js for server-side rendering, creating APIs, and handling backend logic.
+-	Webpack: Webpack is a module bundler that is often used in React.js projects to bundle JavaScript files, CSS files, and other assets. It helps optimize the performance of the application by reducing the number of HTTP requests and enabling features like code splitting and hot module replacement.
+-	Babel: Babel is a JavaScript compiler that is used to transpile modern JavaScript code (ES6/ES7 and beyond) into a backward-compatible version of JavaScript that can run in older browsers. It is often used in React.js projects to enable the use of modern JavaScript features.
+-	Redux (optional): Redux is a predictable state container for JavaScript applications. It is commonly used in React.js projects for managing the application's state in a centralized store, especially in larger applications with complex state management needs.
+-	React Router: React Router is a popular routing library for React.js applications. It allows developers to define routes and navigate between different views/components in a single-page application (SPA).
+-	CSS Preprocessors (e.g., Sass, Less): CSS preprocessors like Sass or Less are often used in React.js projects to write CSS in a more structured and maintainable way. They offer features like variables, mixins, and nested rules that make styling easier and more efficient.
+-	Testing Frameworks (e.g., Jest, React Testing Library): Testing is an essential part of any software development process. Jest is a popular testing framework for JavaScript applications, and React Testing Library is a testing utility specifically designed for testing React components.
+-	Linting and Code Formatting (e.g., ESLint, Prettier): Linting and code formatting tools help maintain code quality and consistency across a project. ESLint is a popular JavaScript linter, and Prettier is a code format that helps ensure consistent code style.
+-	Backend Technologies (e.g., Express.js, GraphQL): Depending on the requirements of the project, various backend technologies may be used to build APIs and handle server-side logic. Express.js is a popular choice for building RESTful APIs, while GraphQL is a query language and runtime for APIs that provides a more flexible and efficient alternative to REST.
 
 5. Problem space to solution space
 Problem Space in React.js:
@@ -41,6 +41,7 @@ Optimizing performance and responsiveness of the user interface.
 Implementing effective data flow between components.
 Addressing challenges related to code organization, scalability, and maintainability.
 In the problem space of React.js, developers focus on analyzing the requirements, identifying potential issues, and gaining insights into the best practices and patterns for building React applications.
+
 Solution Space in React.js:
 The solution space in React.js comprises the various techniques, libraries, patterns, and best practices available to address the challenges identified in the problem space.
 This includes:
@@ -51,7 +52,7 @@ Implementing efficient data flow patterns like unidirectional data flow (via pro
 Adhering to established design patterns and architectural principles such as container/presentational components, higher-order components (HOCs), render props, and hooks.
 In the solution space of React.js, developers explore and experiment with different approaches to address the challenges posed by building user interfaces and applications using React.js.
 
-6. Identify stakeholders
+7. Identify stakeholders
 - users
 - developers
 - browser vendors such as Google, Microsoft, Firefox
