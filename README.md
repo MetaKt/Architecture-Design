@@ -1,4 +1,9 @@
 # Architecture-Design
+### Draft Document
+
+This document is for gathering the information we have researched, in order to keep in one place. 
+https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/edit?usp=sharing
+
 ## React Native
 React Native is an open-source framework developed by Facebook for building mobile applications using JavaScript and React. It allows developers to create cross-platform mobile applications for iOS and Android using a single codebase, which significantly reduces development time and effort.
 
