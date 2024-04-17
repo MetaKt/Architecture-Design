@@ -19,9 +19,14 @@ This study focuses on analysing the architectural design of React Native, explor
 ## 1.1 Description
 React Native is an open-source mobile application framework created by Facebook, enabling developers to build mobile apps using JavaScript and React. It aims to combine the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. The framework allows for the development of applications for Android and iOS platforms with a single codebase, promoting code reuse, and speeding up the development process. It enables developers to create large web applications that can change data, without reloading the page. Emphasizes declarative programming, making the code more predictable and easier to debug.
 <br>As React Native has been rapidly evolving and widely adopted, the complexity of its software architecture is also increasing. Software architecture recovery can help to gain a deeper understanding of the framework's design and implementation, and improve its maintainability, scalability, and security.
+<br>What is the story of React Native? 
 <br>React Native was created by Jordan Walke, a software engineer at Facebook. It was first deployed on Facebook's News Feed in 2011 and later on Instagram.com in 2012.
 React was open-sourced at JSConf US in May 2013. It has since become one of the most popular JavaScript libraries for web development, with a large community and ecosystem.
-<br>
+<br>What is the importance of React Native in the Modern Web Development? 
+<br>React's component-based architecture not only helps in building scalable applications but also makes it easier to maintain and update them.
+It's used by many large companies and startups alike, proving its capability to handle complex applications efficiently.
+React's ecosystem includes tools like Create React App, Next.js, and Gatsby, which help developers start projects quickly and incorporate best practices.
+
 
 
 
