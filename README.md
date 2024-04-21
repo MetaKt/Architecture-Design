@@ -85,13 +85,13 @@ In this section we will analyze the stakeholders of React Native.
   
 ### 2.2 Quality Concerns from Each Type of Stakeholders
 | Type of Stakeholders | Quality Concerns |
-| :-------: | :------------------------------------: |
+| :-------: | ------------------------------------ |
 |Software Developers| <li>Maintainanility <li>Performance <li>Cross-Platform Compatibility|
-|Mobile APP Development Companies| Code Quality & Documentation quality & Ease of Contribution|
-|Project Managers| Time-to-Market & Development Cost & Resource Efficiency|
-|End Users| App Performance & Stability & Usability |
-|Corporate Sponsors| Security & Scalability & Long-term Viability|
-|Open-Source Community| Accessiblity of Contribution & Responsivenes to Community Feedback & Innovation and Feature Richness|
+|Mobile APP Development Companies| <li>Code Quality <li>Documentation quality <li>Ease of Contribution|
+|Project Managers| <li>Time-to-Market <li>Development Cost <li>Resource Efficiency|
+|End Users| <li>App Performance <li>Stability <li>Usability |
+|Corporate Sponsors| <li>Security <li>Scalability <li>Long-term Viability|
+|Open-Source Community| <li>Accessiblity of Contribution <li>Responsivenes to Community Feedback <li>Innovation and Feature Richness|
 
 ## Prioritizing Quality Concerns
 **There are mainly 3 key quality(explained more into detail in the section) concerns are:**
