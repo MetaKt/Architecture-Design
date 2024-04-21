@@ -121,7 +121,7 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 
 ## Early Architecture Design Decisions
 | Decisions | Descriptions | Rationales |
-|:------------------------------------:|:------------------------------------:|:------------------------------------:|
+|:------------------------------------:|:------------------------------------|:------------------------------------|
 |Bridge-Based Communication|To facilitate communication between the JavaScript code running in the JavaScript engine (like V8 for Android or JavaScriptCore for iOS) and the native platform code (Objective-C for iOS, Java for Android), React Native uses a bridge.|This design allows for the development of applications using JavaScript while still accessing the full suite of native platform capabilities. It provides a flexible architecture that supports the React paradigm of declarative components while enabling high performance for native device features.|
 
 
