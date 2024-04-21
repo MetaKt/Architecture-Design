@@ -9,6 +9,7 @@ https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/
 | :----: | :---: | :------------------------------------: |
 | 5/4/2024 | Week 6 | Description, Identify Stakeholders, Quality Concerns |
 | 18/4/2024 | Week 8 | introduction, Identify Stakeholders, Quality Concerns |
+| 21/4/2024 | Week 9 | Architecture-Design Document 1.0| 
 
 
 ## Abstract
