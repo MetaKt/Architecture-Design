@@ -86,7 +86,7 @@ In this section we will analyze the stakeholders of React Native.
 ### 2.2 Quality Concerns from Each Type of Stakeholders
 | Type of Stakeholders | Quality Concerns |
 | :-------: | :------------------------------------: |
-|Software Developers| Maintainanility & Performance & Cross-Platform Compatibility|
+|Software Developers| <li>Maintainanility <li>Performance <li>Cross-Platform Compatibility|
 |Mobile APP Development Companies| Code Quality & Documentation quality & Ease of Contribution|
 |Project Managers| Time-to-Market & Development Cost & Resource Efficiency|
 |End Users| App Performance & Stability & Usability |
@@ -132,7 +132,7 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 |Kevin|**Architecture Documentation and Visualization** <li>Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information.</li>  <li>Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.</li> |
 |Meta |**Project Management and Coordination** <li>Responsible for the overall planning, coordination, and management of the architecture recovery project, ensuring the timely and successful completion of the project.</li>  <li>Define project goals and scope, create a timeline, assign tasks, monitor progress, organize meetings, and handle issues. Verification and Feedback</li> <li>Test and Evaluation Team: Responsible for verifying that the recovered architecture accurately reflects the actual structure and behavior of the system, and meets the initially set goals.</li> <li>Tasks: Design and execute architecture evaluation activities, such as case studies and performance tests, collect feedback, and make necessary adjustments based on the feedback. </li>|
 |Julieta|**Documentation Collection and Analysis** <li>Responsible for gathering all relevant documents and materials, including technical documents, user manuals, and development guides.</li> <li> Organize and analyze the collected materials to provide necessary background information for the architecture recovery.</li>|
-|Parkin| **Code Analysis** <li>Analyze the system's structure, components, and dependencies through code reviews and static analysis tools.</li> <li>Understand the runtime behavior and component interactions using test cases, log analysis, and performance monitoring.</li> <li>=Combine automated tools and manual inspection to recover the software architecture from the codebase.</li>|
+|Parkin| **Code Analysis** <li>Analyze the system's structure, components, and dependencies through code reviews and static analysis tools.</li> <li>Understand the runtime behavior and component interactions using test cases, log analysis, and performance monitoring.</li> <li> Combine automated tools and manual inspection to recover the software architecture from the codebase.</li>|
 
 
 
