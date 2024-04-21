@@ -126,6 +126,27 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 |Modular and Plugin-Centric Architecture|React Native was designed with modularity in mind, allowing developers to include only the components and libraries they need for their application. This extends to the capability of integrating native modules and third-party plugins|This approach reduces the overall size of applications, improves maintainability, and allows for extensive customization and extensibility. Developers can easily add native functionality as needed without bloating the application with unnecessary features.|
 |Use of React Paradigm|Adopting the React paradigm, including the use of JSX for UI definitions, components for encapsulating elements, and a virtual DOM to optimize rendering performance.|Leveraging the React library's approach allows for efficient development of complex user interfaces with a declarative style. This choice made React Native appealing to web developers familiar with React, facilitating a smoother transition to mobile development and encouraging the sharing of code and concepts between web and mobile platforms.|
 
+## Task Allocation
+| Team Member | Tasks |
+|:----------:|------------------------------------|
+|Kevin|**Architecture Documentation and Visualization**
+-Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information.
+-Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.|
+|Meta |**Project Management and Coordination**
+-Responsible for the overall planning, coordination, and management of the architecture recovery project, ensuring the timely and successful completion of the project. 
+-Define project goals and scope, create a timeline, assign tasks, monitor progress, organize meetings, and handle issues.
+Verification and Feedback
+Test and Evaluation Team: Responsible for verifying that the recovered architecture accurately reflects the actual structure and behavior of the system, and meets the initially set goals.
+Tasks: Design and execute architecture evaluation activities, such as case studies and performance tests, collect feedback, and make necessary adjustments based on the feedback.|
+|Julieta|**Documentation Collection and Analysis**
+-Responsible for gathering all relevant documents and materials, including technical documents, user manuals, and development guides.
+-organize and analyze the collected materials to provide necessary background information for the architecture recovery|
+|Parkin| **Code Analysis**
+-Analyze the system's structure, components, and dependencies through code reviews and static analysis tools.
+-Understand the runtime behavior and component interactions using test cases, log analysis, and performance monitoring.
+-Combine automated tools and manual inspection to recover the software architecture from the codebase.|
+
+
 
 
 
