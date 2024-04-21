@@ -71,10 +71,10 @@ In this section we will analyze the stakeholders of React Native.
 
 ### Prioritizing Quality Concerns
 * **Performance and Stability:** Critical for end users, developers, and corporate sponsors.
-**Maintainability and Code Quality:** Essential for developers, contributors, and long-term viability.
-Time-to-Market and Development Cost: Important for project managers and corporate sponsors.
-Security: Non-negotiable for all stakeholders, especially corporate sponsors and end users.
-Cross-platform Compatibility: Key for developers and project managers to ensure wide reach
+* **Maintainability and Code Quality:** Essential for developers, contributors, and long-term viability.
+* **Time-to-Market and Development Cost:** Important for project managers and corporate sponsors.
+* **Security:** Non-negotiable for all stakeholders, especially corporate sponsors and end users.
+* **Cross-platform Compatibility:** Key for developers and project managers to ensure wide reach
 
 
 
