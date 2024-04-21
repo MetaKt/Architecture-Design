@@ -61,8 +61,9 @@ In this section we will analyze the stakeholders of React Native.
   
 # 2.2 Quality Concerns from Each Type of Stakeholders
 | Type of Stakeholders | Quality Concerns |
-| ------- | ------------------------------------ |
-|Software Developers| * Maintainanility * Performance * Cross-Platform Compatibility|
+| :-------: | :------------------------------------: |
+|Software Developers| Maintainanility & Performance & Cross-Platform Compatibility|
+|||
 
 
 
