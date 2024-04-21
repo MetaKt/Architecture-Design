@@ -121,7 +121,7 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 
 ## Early Architecture Design Decisions
 | Decisions | Descriptions | Rationales |
-|----------|----------|----------|
+|:------------------------------------:|:------------------------------------:-|:------------------------------------:|
 ||||
 
 
