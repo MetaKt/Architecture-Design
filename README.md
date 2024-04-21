@@ -34,38 +34,38 @@ Its emphasis on component reusability, the virtual DOM, and a vibrant ecosystem 
 <br>
 
 ### 1.2 Proposed Architecture Recovery Steps
-1. Goal Setting and Requirement Gathering
+**1. Goal Setting and Requirement Gathering**
 - Clearly define the purpose and requirements of the architecture recovery, including the specific problems to be solved and the target users (developers, project managers, etc.).
 - Determine the types of architecture views to be recovered (e.g., module view, component-connector view, deployment view).
 
-2. Existing Documentation Collection
+**2. Existing Documentation Collection**
 - Gather all available documentation, including technical documents, development documents, and user manuals. Start with the official React Native documentation (https://reactnative.dev/docs/getting-started). It provides a solid foundation for understanding the framework's core concepts, architectural patterns, and best practices.
 - Analyze the source code, especially the critical components and interfaces, to understand the system's structure and behavior. Dive into the React Native source code on GitHub (https://github.com/facebook/react-native). Look for comments, file structures, and module interactions to grasp how various parts collaborate. Consider using code navigation tools to explore the codebase efficiently.
 - Search for existing architectural diagrams of React Native online. These can offer a high-level overview of the framework's components and their relationships.
 
-3. Tool and Method Selection
+**3. Tool and Method Selection**
 - Select appropriate software architecture recovery tools for the React Native project, such as architecture recovery tools (e.g., Architexa, Lattix) and code analysis tools (e.g., SonarQube, CodeScene).
 - Determine the suitable architecture recovery method for this project, such as the Scenario-based Architecture Analysis Method (SAAM), the Architecture Tradeoff Analysis Method (ATAM), or a combination of static and dynamic analysis.
 
-4. Architecture Recovery Implementation
+**4. Architecture Recovery Implementation**
 - Static Analysis: Recover the static architecture of the software by analyzing the source code, including module organization, class and component dependencies, etc.
 - Dynamic Analysis: Understand the dynamic interaction and communication patterns between components by running the system and monitoring its behavior.
 - Data Integration: Combine the results of static and dynamic analysis to build a comprehensive view of the architecture.
 
-5. Architecture Documentation
+**5. Architecture Documentation**
 - Create architecture documentation that describes the recovered architecture in detail, including architectural decisions, component descriptions, and interaction patterns.
 - Use charts and models to visualize the architecture, such as UML diagrams.
 
-6. Verification and Feedback
+**6. Verification and Feedback**
 - Verify that the recovered architecture meets the initial goals and requirements.
 - Present the recovered architecture and collect feedback from stakeholders, making necessary adjustments based on the feedback.
 
-7. Continuous Update
+**7. Continuous Update**
 - Software architecture is constantly evolving, so the results of the architecture recovery need to be regularly updated as the project progresses.
 
 ### 1.3 File structure
 The file structure of this document will organized into the following chapters:
-<br>
+
 1. "Chapter 2: stakeholders Analysis"...
 2. "Chapter 3: Viewpoints Analysis"...
 3. "Chapter 4: Perspective Analysis"...
@@ -94,8 +94,7 @@ In this section we will analyze the stakeholders of React Native.
 |Open-Source Community| Accessiblity of Contribution & Responsivenes to Community Feedback & Innovation and Feature Richness|
 
 ## Prioritizing Quality Concerns
-<br>**There are mainly 3 key quality(explained more into detail in the section) concerns are:**
-<br>
+**There are mainly 3 key quality(explained more into detail in the section) concerns are:**
 1. Maintanability
 2. Performance
 3. Scalability
