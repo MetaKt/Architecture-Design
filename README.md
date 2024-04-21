@@ -50,7 +50,7 @@ The file structure of this document will organized into the following chapters:
 ## 2 Stakeholders analysis
 In this section we will analyze the stakeholders of React Native. 
 
-*Meta
+* Meta
 
 
 
