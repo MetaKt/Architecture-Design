@@ -129,10 +129,10 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 ## Task Allocation
 | Team Member | Tasks |
 |:----------:|------------------------------------|
-|Kevin|**Architecture Documentation and Visualization** <li>Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information. <li>Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.|
+|Kevin|**Architecture Documentation and Visualization** <li>Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information.</li>  <li>Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.</li> |
 |Meta |**Project Management and Coordination**
--Responsible for the overall planning, coordination, and management of the architecture recovery project, ensuring the timely and successful completion of the project. 
--Define project goals and scope, create a timeline, assign tasks, monitor progress, organize meetings, and handle issues.
+<li>Responsible for the overall planning, coordination, and management of the architecture recovery project, ensuring the timely and successful completion of the project. 
+<li>Define project goals and scope, create a timeline, assign tasks, monitor progress, organize meetings, and handle issues.
 Verification and Feedback
 Test and Evaluation Team: Responsible for verifying that the recovered architecture accurately reflects the actual structure and behavior of the system, and meets the initially set goals.
 Tasks: Design and execute architecture evaluation activities, such as case studies and performance tests, collect feedback, and make necessary adjustments based on the feedback.|
