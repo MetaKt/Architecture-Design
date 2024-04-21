@@ -129,9 +129,7 @@ React Native primarily uses JavaScript for building the user interface (UI) comp
 ## Task Allocation
 | Team Member | Tasks |
 |:----------:|------------------------------------|
-|Kevin|**Architecture Documentation and Visualization**
--Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information.
--Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.|
+|Kevin|**Architecture Documentation and Visualization** * Responsible for writing the architecture documentation and creating architecture diagrams based on the recovered architecture information. * Clearly define the target audience and purpose of the documentation, use standardized architecture description languages and visualization tools, such as UML, to describe the system architecture.|
 |Meta |**Project Management and Coordination**
 -Responsible for the overall planning, coordination, and management of the architecture recovery project, ensuring the timely and successful completion of the project. 
 -Define project goals and scope, create a timeline, assign tasks, monitor progress, organize meetings, and handle issues.
