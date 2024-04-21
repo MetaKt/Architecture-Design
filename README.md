@@ -32,7 +32,7 @@ React's ecosystem includes tools like Create React App, Next.js, and Gatsby, whi
 <br>React fundamentally changed the way developers build web applications by introducing an efficient and flexible model for constructing user interfaces.
 Its emphasis on component reusability, the virtual DOM, and a vibrant ecosystem makes it a cornerstone technology for modern web development.
 <br>
-<br>**Their mainly 3 key quality(explained more into detail in the section ****) concerns are:**
+<br>**Their mainly 3 key quality(explained more into detail in the section) concerns are:**
 <br>
 1. Maintanability
 2. Performance
