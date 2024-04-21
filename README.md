@@ -16,7 +16,7 @@ This research paper delves into the software architecture of React Native, a pro
 This study focuses on analysing the architectural design of React Native, exploring its core components, data flow mechanisms, and integration with native APIs. By examining React Native's architecture, this paper aims to provide insights into its underlying principles maintability, scalability, and security for diverse mobile application development scenarios.
 
 ## 1 Introduction
-## 1.1 Description
+### 1.1 Description
 React Native is an open-source mobile application framework created by Facebook, enabling developers to build mobile apps using JavaScript and React. It aims to combine the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. The framework allows for the development of applications for Android and iOS platforms with a single codebase, promoting code reuse, and speeding up the development process. It enables developers to create large web applications that can change data, without reloading the page. Emphasizes declarative programming, making the code more predictable and easier to debug.
 <br>As React Native has been rapidly evolving and widely adopted, the complexity of its software architecture is also increasing. Software architecture recovery can help to gain a deeper understanding of the framework's design and implementation, and improve its maintainability, scalability, and security.
 <br>
@@ -39,7 +39,7 @@ Its emphasis on component reusability, the virtual DOM, and a vibrant ecosystem 
 3. Scalability
 
 
-## 1.2 File structure
+### 1.2 File structure
 The file structure of this document will organized into the following chapters:
 <br>
 1. "Chapter 2: stakeholders Analysis"...
@@ -50,7 +50,7 @@ The file structure of this document will organized into the following chapters:
 ## 2 Stakeholders analysis
 In this section we will analyze the stakeholders of React Native. 
 
-# 2.1 Stakeholders
+### 2.1 Stakeholders
 * **Meta (formerly Facebook):** They created React Native and are concerned with its long-term maintainability, performance across platforms, and fostering a healthy developer community.
 * **Software Developers:** Developers using React Native are concerned with development speed, ease of learning, cross-platform compatibility, and access to a rich library of components and tools.
 * **The Open-Source Community:** Contributors value code quality, adherence to best practices, modularity, and ease of contribution.
@@ -59,7 +59,7 @@ In this section we will analyze the stakeholders of React Native.
 * **Project Managers:** Oversee development projects using React Native.
 * **Corporate Sponsors:** Companies that invest in React Native for their product development.
   
-# 2.2 Quality Concerns from Each Type of Stakeholders
+### 2.2 Quality Concerns from Each Type of Stakeholders
 | Type of Stakeholders | Quality Concerns |
 | :-------: | :------------------------------------: |
 |Software Developers| Maintainanility & Performance & Cross-Platform Compatibility|
