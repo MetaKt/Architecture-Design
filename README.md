@@ -6,7 +6,7 @@ https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/
 
 ## Work Update
 | Date | Week | Description |
-| ---- | --- | ------------------------------------ |
+| :----: | :---: | :------------------------------------: |
 | 5/4/2024 | Week 6 | Description, Identify Stakeholders, Quality Concerns |
 | 18/4/2024 | Week 8 | introduction, Identify Stakeholders, Quality Concerns |
 
@@ -63,8 +63,11 @@ In this section we will analyze the stakeholders of React Native.
 | Type of Stakeholders | Quality Concerns |
 | :-------: | :------------------------------------: |
 |Software Developers| Maintainanility & Performance & Cross-Platform Compatibility|
-|||
-
+|Mobile APP Development Companies| Code Quality & Documentation quality & Ease of Contribution|
+|Project Managers| Time-to-Market & Development Cost & Resource Efficiency|
+|End Users| App Performance & Stability & Usability |
+|Corporate Sponsors| Security & Scalability & Long-term Viability|
+|Open-Source Community| Accessiblity of Contribution & Responsivenes to Community Feedback & Innovation and Feature Richness|
 
 
 
