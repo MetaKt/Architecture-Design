@@ -50,7 +50,13 @@ The file structure of this document will organized into the following chapters:
 ## 2 Stakeholders analysis
 In this section we will analyze the stakeholders of React Native. 
 
-* Meta
+* Meta (formerly Facebook): They created React Native and are concerned with its long-term maintainability, performance across platforms, and fostering a healthy developer community.
+* Software Developers: Developers using React Native are concerned with development speed, ease of learning, cross-platform compatibility, and access to a rich library of components and tools.
+* The Open-Source Community: Contributors value code quality, adherence to best practices, modularity, and ease of contribution.
+* Mobile App Development Companies: Companies using React Native prioritize development efficiency, app performance on target devices, and access to native functionalities.
+* End Users: Users that use the applications developed with React Native.
+* Project Managers: Oversee development projects using React Native.
+* Corporate Sponsors: Companies that invest in React Native for their product development.
 
 
 
