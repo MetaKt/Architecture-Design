@@ -120,8 +120,8 @@ In this section we will analyze the stakeholders of React Native.
 React Native primarily uses JavaScript for building the user interface (UI) components of mobile apps. This allows developers to leverage their existing JavaScript knowledge for mobile development. React Native also utilizes XML-like syntax called JSX (JavaScript XML) to structure UI components within JavaScript code. While JavaScript is the main language for UI development, native languages like Java (Android) and Swift (iOS) are used for platform-specific functionalities.
 
 ## Early Architecture Design Decisions
-| Decisions | :Descriptions: | :Rationales: |
-|:------------------------------------:|:------------------------------------|:------------------------------------|
+| Decisions | Descriptions | :Rationales |
+|:------------------------------------:|------------------------------------|------------------------------------|
 |Bridge-Based Communication|To facilitate communication between the JavaScript code running in the JavaScript engine (like V8 for Android or JavaScriptCore for iOS) and the native platform code (Objective-C for iOS, Java for Android), React Native uses a bridge.|This design allows for the development of applications using JavaScript while still accessing the full suite of native platform capabilities. It provides a flexible architecture that supports the React paradigm of declarative components while enabling high performance for native device features.|
 
 
