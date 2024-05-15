@@ -102,38 +102,6 @@ In this section we will analyze the stakeholders of React Native.
 |Corporate Sponsors| <li>Security <li>Scalability <li>Long-term Viability|
 |Open-Source Community| <li>Accessiblity of Contribution <li>Responsivenes to Community Feedback <li>Innovation and Feature Richness|
 
-## Prioritizing Quality Concerns
-**There are mainly 3 key quality(explained more into detail in the section) concerns are:**
-1. Maintanability
-2. Performance
-3. Scalability
-   
-* **Performance and Stability:** Critical for end users, developers, and corporate sponsors.
-* **Maintainability and Code Quality:** Essential for developers, contributors, and long-term viability.
-* **Time-to-Market and Development Cost:** Important for project managers and corporate sponsors.
-* **Security:** Non-negotiable for all stakeholders, especially corporate sponsors and end users.
-* **Cross-platform Compatibility:** Key for developers and project managers to ensure wide reach
-
-## Business Context 
-* **Market Demand:**  The ever-growing demand for cross-platform mobile development tools that reduce development time and costs played a significant role in React Native's emergence. It allows companies to target both Android and iOS platforms with a single codebase, fostering faster development cycles and cost-efficiency.
-* **Open-Source Model:**  React Native's open-source nature fosters rapid innovation and community engagement. This model allows developers worldwide to contribute to the framework's growth, identify and fix bugs, and create new features. This collaborative approach accelerates the development process and ensures the framework remains relevant in an ever-evolving mobile landscape.
-* **Corporate Adoption:**  React Native's ability to streamline development processes and reduce costs has attracted numerous corporations. Companies can leverage a single codebase to target both Android and iOS users, saving development resources and time to market. This broader adoption by large corporations further fuels the growth and innovation within the React Native ecosystem.
-
-## Technical Context
-* **Cross-Platform Development:**  Maintaining consistent performance across different platforms with varying hardware capabilities can be challenging. Additionally, integrating native features specific to each platform requires careful implementation strategies.
-* **Ecosystem Complexity:**  The vast array of available plugins and third-party libraries can be overwhelming. Careful management and selection of the appropriate libraries are crucial to ensure project stability and avoid compatibility issues.
-* **Rapid Evolution:**  The React Native ecosystem, including the framework itself and its supporting libraries, evolves rapidly. Developers need to stay updated with these advancements to ensure their skills and applications remain relevant
-
-## Programming Language used in React Native
-
-React Native primarily uses JavaScript for building the user interface (UI) components of mobile apps. This allows developers to leverage their existing JavaScript knowledge for mobile development. React Native also utilizes XML-like syntax called JSX (JavaScript XML) to structure UI components within JavaScript code. While JavaScript is the main language for UI development, native languages like Java (Android) and Swift (iOS) are used for platform-specific functionalities.
-
-## Early Architecture Design Decisions
-| Decisions | Descriptions | Rationales |
-|:------------------------------------:|------------------------------------|------------------------------------|
-|Bridge-Based Communication|To facilitate communication between the JavaScript code running in the JavaScript engine (like V8 for Android or JavaScriptCore for iOS) and the native platform code (Objective-C for iOS, Java for Android), React Native uses a bridge.|This design allows for the development of applications using JavaScript while still accessing the full suite of native platform capabilities. It provides a flexible architecture that supports the React paradigm of declarative components while enabling high performance for native device features.|
-|Modular and Plugin-Centric Architecture|React Native was designed with modularity in mind, allowing developers to include only the components and libraries they need for their application. This extends to the capability of integrating native modules and third-party plugins|This approach reduces the overall size of applications, improves maintainability, and allows for extensive customization and extensibility. Developers can easily add native functionality as needed without bloating the application with unnecessary features.|
-|Use of React Paradigm|Adopting the React paradigm, including the use of JSX for UI definitions, components for encapsulating elements, and a virtual DOM to optimize rendering performance.|Leveraging the React library's approach allows for efficient development of complex user interfaces with a declarative style. This choice made React Native appealing to web developers familiar with React, facilitating a smoother transition to mobile development and encouraging the sharing of code and concepts between web and mobile platforms.|
 
 
 
