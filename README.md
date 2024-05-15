@@ -186,3 +186,22 @@ The main thread, often referred to as the UI thread, is primarily responsible fo
 <li><b>Shadow Thread (Layout Thread):</b>
 This thread is responsible for calculating the layout using the Yoga layout engine. The layout calculations are based on the Flexbox algorithm, which determines the size and position of UI components. Once computed, the layout information is sent back to the main thread to update the UI accordingly.</li>
 
+
+![图片4](https://github.com/MetaKt/Architecture-Design/assets/131533232/8477f945-8e01-4fb8-b21d-624330ebfaa1)
+
+<li> <b>User Interaction:</b>Starts with the user interacting with the application (e.g., touches, gestures).</li>
+<li> <b>JavaScript Thread (JST):</b> Handles most of the application logic, including event processing and state management. It sends data and commands to the bridge.</li>
+<li> <b>Bridge:</b> Serves as the communication layer between JavaScript and the native side, serializing data and commands.</li>
+<li> <b>Native Thread (NT):</b> Executes native code and handles operations that require direct interaction with the device's operating system and hardware.</li>
+<li> <b>Shadow Thread (ST):</b> Specifically responsible for layout calculations which are then passed to the UI thread for rendering.</li>
+<li> <b>UI Thread:</b> Directly responsible for rendering the UI elements onto the device screen. Ensures that the user interface remains responsive and smooth.</li>
+
+**Core Processes**
+<li> <b>Initialization:</b> During the app launch, the React Native environment is set up. This includes loading the JavaScript bundle into the JavaScript engine and initializing the bridge and native modules.
+<li> <b>Event Handling:</b> User interactions or system events are captured in the JavaScript thread, where event handlers and responses are processed. The results might require updating the state of components or triggering actions in native modules.</li>
+<li><b>Data Flow and Bridge Communication:</b> The bridge plays a pivotal role in communicating between the JavaScript thread and the native side. When JavaScript needs to access native capabilities, it sends serialized data across the bridge to the native modules. Similarly, responses from native modules are sent back to the JavaScript thread via the bridge.</li>
+<li><b>Rendering Process:</b>React components define their views which are translated into native views by the bridge. The layout is calculated in the shadow thread, and the main thread then renders these native components onto the screen. Updates to the UI are managed through a batching and diffing process that optimizes performance by minimizing the number of native manipulations required.</li>
+<li><b>Asynchronous Operations:</b>Network requests, data storage, and other heavy computations are handled asynchronously to avoid blocking the UI. These operations are initiated from the JavaScript thread and often managed by native modules that can perform background tasks.</li>
+
+
+
