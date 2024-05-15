@@ -197,16 +197,14 @@ This thread is responsible for calculating the layout using the Yoga layout engi
 <li> <b>UI Thread:</b> Directly responsible for rendering the UI elements onto the device screen. Ensures that the user interface remains responsive and smooth.</li>
 
 
-
-
-
+<br>
 **Core Processes**
 <li> <b>Initialization:</b> During the app launch, the React Native environment is set up. This includes loading the JavaScript bundle into the JavaScript engine and initializing the bridge and native modules.
 <li> <b>Event Handling:</b> User interactions or system events are captured in the JavaScript thread, where event handlers and responses are processed. The results might require updating the state of components or triggering actions in native modules.</li>
 <li><b>Data Flow and Bridge Communication:</b> The bridge plays a pivotal role in communicating between the JavaScript thread and the native side. When JavaScript needs to access native capabilities, it sends serialized data across the bridge to the native modules. Similarly, responses from native modules are sent back to the JavaScript thread via the bridge.</li>
 <li><b>Rendering Process:</b>React components define their views which are translated into native views by the bridge. The layout is calculated in the shadow thread, and the main thread then renders these native components onto the screen. Updates to the UI are managed through a batching and diffing process that optimizes performance by minimizing the number of native manipulations required.</li>
 <li><b>Asynchronous Operations:</b>Network requests, data storage, and other heavy computations are handled asynchronously to avoid blocking the UI. These operations are initiated from the JavaScript thread and often managed by native modules that can perform background tasks.</li>
-
+<br>
 
 
 
