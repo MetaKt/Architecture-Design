@@ -198,7 +198,7 @@ This thread is responsible for calculating the layout using the Yoga layout engi
 
 
 <br>
-**Core Processes**
+<b>Core Processes</b>
 <li> <b>Initialization:</b> During the app launch, the React Native environment is set up. This includes loading the JavaScript bundle into the JavaScript engine and initializing the bridge and native modules.
 <li> <b>Event Handling:</b> User interactions or system events are captured in the JavaScript thread, where event handlers and responses are processed. The results might require updating the state of components or triggering actions in native modules.</li>
 <li><b>Data Flow and Bridge Communication:</b> The bridge plays a pivotal role in communicating between the JavaScript thread and the native side. When JavaScript needs to access native capabilities, it sends serialized data across the bridge to the native modules. Similarly, responses from native modules are sent back to the JavaScript thread via the bridge.</li>
@@ -219,6 +219,16 @@ This sequence diagram illustrates how a typical interaction flows through the Re
 <li><b>Shadow Thread:</b>Receives requests for layout calculations from native modules. It uses the Yoga engine to compute the layout of UI components.</li>
 <li><b>Main Thread (UI Thread):</b>Receives the computed layout from the shadow thread and is responsible for rendering the native components onto the screen.</li>
 <li><b>Native Modules:</b>Handle more complex functionalities that require native capabilities, such as accessing hardware features or performing background tasks.</li>
+
+
+
+### 3.2.4 New Architecture
+In June 2018, Facebook announced a plan to refactor the RN architecture. The new architecture is designed to address the limitations of the existing architecture and provide a number of benefits, including:
+**Improved performance:** The new architecture uses a new rendering engine called Fabric that is designed to be more performant than the old engine.
+**Better maintainability:** The new architecture is modular and easier to maintain.
+**Increased flexibility:** The new architecture makes it easier for developers to add new native features.
+
+
 
 
 
