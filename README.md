@@ -225,7 +225,9 @@ This sequence diagram illustrates how a typical interaction flows through the Re
 ### 3.2.4 New Architecture
 In June 2018, Facebook announced a plan to refactor the RN architecture. The new architecture is designed to address the limitations of the existing architecture and provide a number of benefits, including:
 **Improved performance:** The new architecture uses a new rendering engine called Fabric that is designed to be more performant than the old engine.
+
 **Better maintainability:** The new architecture is modular and easier to maintain.
+
 **Increased flexibility:** The new architecture makes it easier for developers to add new native features.
 
 
