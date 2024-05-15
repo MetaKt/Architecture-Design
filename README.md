@@ -139,6 +139,8 @@ Main Modules of React Native and their interaction between each other.
 <li><b>Overall Flow From JavaScript to Native:</b>JavaScript code defining components and their behaviors is executed in the JavaScript Runtime. Changes that need native functionality pass through the Bridge to either Native Modules or directly to Native Components.
 From Native to JavaScript: Native Modules might collect data or perform operations that need to update the JavaScript side. These updates pass back through the Bridge to the JavaScript Runtime, which then updates the React Components accordingly.</li>
 
+<br>
+<br>
 ![图片2](https://github.com/MetaKt/Architecture-Design/assets/131533232/b9bc15de-2196-4bd0-8b2f-560cdcfd552e)
 
 In React Native, the distinction between these two types of arrows helps clarify the nature of communication:
@@ -146,9 +148,28 @@ In React Native, the distinction between these two types of arrows helps clarify
 <li>Dotted arrows used to indicate data being passed back, such as responses from Native Modules to the Bridge, or from the Bridge back to the JavaScript Runtime. These could also represent less direct interactions, such as the use of utilities or services provided by the Utilities Module that support the main functions but do not directly control them.</li>
 
 
-### 3.2.2 
+### 3.2.2 Component and Connector View
+**QA: Performance, Extensibility, Reliability**
+**Description:** This view focuses on the components involved in execution and data processing, including runtime components like the JavaScript Engine (like JavaScriptCore or Hermes), the Bridge, and native components. It illustrates how data flows between these components and how they communicate, which is vital for optimizing performance and ensuring reliable data handling.
+
+<br>
+<br>
+![图片3](https://github.com/MetaKt/Architecture-Design/assets/131533232/09213d5d-c145-43b6-8a4e-101dc4d03ed6)
 
 
+The Component and Connector View (C&C View) of the React Native framework provides an architectural perspective focusing on the runtime components and the interactions (connectors) between them. This view is particularly useful for understanding how different parts of the system interact with each other, which is crucial for both system integration and troubleshooting. Here’s a detailed breakdown of the components and connectors within the React Native architecture:
+
+**Components**
+<li><b>React Components:</b> These are the building blocks of a React Native application. React components define the UI and manage the state and lifecycle of the views they represent. Each component corresponds to a native view, but the definition and logic are written in JavaScript using React's declarative syntax.</li>
+<li><b>JavaScript Runtime:</b> This is the environment where the JavaScript code executes. In the context of React Native, this often refers to JavaScriptCore on iOS or V8/JavaScriptCore on Android (depending on configuration and version).</li>
+<li><b>Native Modules:/b> These modules bridge React Native applications with the device's native capabilities such as camera access, GPS, accelerometer, etc. Native modules are custom Objective-C, Swift, Java, or Kotlin classes that expose their methods to JavaScript.</li>
+<li><b>Native Components:</b>These are actual platform-specific UI components (like views, text inputs, images) that are ultimately rendered on the screen. They are controlled via the JavaScript written by developers but are fully native, which helps in achieving near-native performance.</li>
+
+**Connectors**
+<li><b>Bridge:</b> The bridge is a critical architectural element in React Native. It is responsible for asynchronous communication between the JavaScript runtime and the native side. The bridge serializes messages using a JSON-like format, passing them between the two sides. This mechanism allows the JavaScript code to invoke native methods, subscribe to native events, and vice versa.</li>
+<li><b>Events:</b> Events are a form of connector that facilitate communication from the native components back to JavaScript. For example, a touch event on a native button can trigger a callback in JavaScript, which can then execute some logic like updating the UI or changing the application state.</li>
+<li><b>Commands: </b>Commands are instructions sent from JavaScript to control native components. For example, a command might tell a native video player component to pause or play. These are typically implemented as serialized messages that pass through the bridge.</li>
+<li><b>Callbacks and Promises:</b> Callbacks and promises are used for handling asynchronous operations in React Native. JavaScript can initiate an action on the native side, which performs its operation and then calls back to JavaScript to signal completion, error, or return results. Promises offer a more modern approach to handling asynchronous responses, providing better syntax and error handling compared to traditional callbacks.</li>
 
 
 
