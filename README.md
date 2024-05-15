@@ -247,7 +247,7 @@ In June 2018, Facebook announced a plan to refactor the RN architecture. The new
 ### 3.3 Relationship Between The Architecture and QA
 
 
-The architecture of React Native significantly impacts several key quality attributes that are crucial for the development and performance of mobile applications. Here's how React Native's architecture affects performance, reliability, Extensibility, maintainability, and security:
+The architecture of React Native significantly impacts several key quality attributes that are crucial for the development and performance of mobile applications. React Native's architecture brings several advantages in terms of development speed, user experience, and platform coverage. However, it also requires careful consideration, particularly regarding performance and security, to ensure that the benefits are fully realized without compromising the quality of the mobile application. Here's how React Native's architecture affects performance, reliability, Extensibility, maintainability, and security:
 
 **1. Performance**
 React Native's architecture, which includes the use of a bridge to communicate between the JavaScript code and the native components, has both benefits and challenges regarding performance:
