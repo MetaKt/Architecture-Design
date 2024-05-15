@@ -378,30 +378,30 @@ React Native primarily employs a Component-Based Architecture (CBA) pattern, whi
 ### 4.1 React Architecture Patterns
 
 ![react  broker arquitecture pattern](https://github.com/MetaKt/Architecture-Design/assets/91473477/9f17ab81-4ba0-4b97-b03d-b9df53b7eb5f)
-
+<br>
   React Native can be said to utilize aspects of the Broker Architectural Pattern, especially in how it handles communication between different parts of its system—most notably through its "Bridge" module.
-<br>
-Broker Pattern Overview<br>
+<br><br>
+Broker Pattern Overview<br><br>
   The Broker architectural pattern is designed to structure distributed software systems with decoupled components that interact through a mediating broker. The broker is responsible for coordinating communication, such as forwarding requests, as well as transmitting results and exceptions.
-<br>
+<br><br>
 How React Native Uses the Broker Pattern<br>
   In React Native, the Bridge acts as a broker between the JavaScript runtime and the native modules/components. Here’s how it aligns with the broker pattern:
-<br>
+<br><br>
 Decoupling Components: The JavaScript code (React components) and native code (native modules and components) operate independently of one another. They are not aware of each other's presence directly but communicate through a centralized mediator.
-<br>
+<br><br>
 Centralized Mediator - The Bridge:
-<br>
-  Role: The Bridge facilitates communication between the JavaScript environment and the native side. It serializes and deserializes the data that passes between them, handling the necessary conversions.<br>
-  Operation: When a JavaScript component wants to interact with a native feature (like accessing the camera), it sends a serialized command through the Bridge. The Bridge then interprets this command and calls the relevant native module or component. Conversely, results and events from the native side are sent back to the JavaScript environment via the Bridge.<br>
-  Asynchronous Communication: The Bridge supports asynchronous communication, which is crucial for maintaining responsiveness in the user interface. This means that the JavaScript UI can continue to operate smoothly while waiting for data or operations from the native modules, which aligns well with the asynchronous nature often seen in implementations of the broker pattern.<br>
+<br><br>
+  **Role:** The Bridge facilitates communication between the JavaScript environment and the native side. It serializes and deserializes the data that passes between them, handling the necessary conversions.<br>
+  **Operation:** When a JavaScript component wants to interact with a native feature (like accessing the camera), it sends a serialized command through the Bridge. The Bridge then interprets this command and calls the relevant native module or component. Conversely, results and events from the native side are sent back to the JavaScript environment via the Bridge.<br>
+  **Asynchronous Communication:** The Bridge supports asynchronous communication, which is crucial for maintaining responsiveness in the user interface. This means that the JavaScript UI can continue to operate smoothly while waiting for data or operations from the native modules, which aligns well with the asynchronous nature often seen in implementations of the broker pattern.<br>
 <br>
 Benefits of Using the Broker Pattern in React Native<br>
-  Modularity: The separation between JavaScript and native code enhances modularity, allowing developers to work on different parts of the application without interference.<br>
-  Flexibility: It allows for the easy integration of native capabilities into JavaScript applications, providing a flexible development approach that leverages the strengths of both environments.<br>
-  Extensibility: This pattern supports the addition of more native modules or enhancements to the Bridge itself without significant changes to the overall architecture.<br>
+  **Modularity:** The separation between JavaScript and native code enhances modularity, allowing developers to work on different parts of the application without interference.<br>
+  **Flexibility:** It allows for the easy integration of native capabilities into JavaScript applications, providing a flexible development approach that leverages the strengths of both environments.<br>
+  **Extensibility:** This pattern supports the addition of more native modules or enhancements to the Bridge itself without significant changes to the overall architecture.<br>
 Drawbacks<br>
-  Performance Overhead: The Bridge can become a bottleneck due to its serialization and deserialization processes. This overhead might impact performance, especially in high-load scenarios or complex interactions.<br>
-  Complexity in Debugging: Debugging issues across the Bridge can be challenging because it involves multiple languages and environments (JavaScript and native platforms).<br>
+  **Performance Overhead:** The Bridge can become a bottleneck due to its serialization and deserialization processes. This overhead might impact performance, especially in high-load scenarios or complex interactions.<br>
+  **Complexity in Debugging:** Debugging issues across the Bridge can be challenging because it involves multiple languages and environments (JavaScript and native platforms).<br>
 In summary, React Native’s use of the broker pattern through its Bridge component significantly aids in its goal of combining the best of web and native development. It allows for an effective and efficient method of integrating JavaScript with native platform capabilities, although it does come with some performance and debugging challenges.<br>
 
 
@@ -416,26 +416,26 @@ In summary, React Native’s use of the broker pattern through its Bridge compon
 <br>Explanation: React Native uses a bridge to facilitate communication between the JavaScript runtime and the native side of the application. This bridge ensures that data and commands can be passed asynchronously, allowing the UI to remain responsive while longer-running tasks are executed on the native side. This approach helps in managing UI smoothness and responsiveness, crucial for user experience.<br>
 <br>
 **2. Usability**<br>
-<br>Tactic: Component-Based Architecture
-<br>Purpose: To simplify the development process and make the framework easier to use for developers.
-<br>Explanation: React Native adopts React’s component-based architecture, allowing developers to build encapsulated components that manage their own state. This approach enables hot reloading and live reloading features, which significantly enhance the developer experience by allowing immediate feedback for changes in the code without a full reload.
+<br>**Tactic:** Component-Based Architecture
+<br>**Purpose:** To simplify the development process and make the framework easier to use for developers.
+<br>**Explanation:** React Native adopts React’s component-based architecture, allowing developers to build encapsulated components that manage their own state. This approach enables hot reloading and live reloading features, which significantly enhance the developer experience by allowing immediate feedback for changes in the code without a full reload.
 <br><br>
 **3. Reliability**<br>
-<br>Tactic: Strong Typing with TypeScript or Flow
-<br>Purpose: To reduce runtime errors and improve code quality.
-<br>Explanation: While not mandatory, React Native supports the use of TypeScript or Flow to add static typing to the JavaScript code. This tactic helps in catching errors early in the development process, making the code more reliable and less prone to bugs during runtime.
+<br>**Tactic:** Strong Typing with TypeScript or Flow
+<br>**Purpose:** To reduce runtime errors and improve code quality.
+<br>**Explanation:** While not mandatory, React Native supports the use of TypeScript or Flow to add static typing to the JavaScript code. This tactic helps in catching errors early in the development process, making the code more reliable and less prone to bugs during runtime.
 <br><br>
 **4. Maintainability**<br>
-<br>Tactic: Modular Design and Decoupled Components
-<br>Purpose: To simplify updates and maintenance of the application.
-<br>Explanation: The modular nature of components in React Native allows for better maintainability. Each component can be updated or fixed in isolation without affecting the rest of the application. This structure supports easier upgrades and changes, reducing the risk of introducing bugs into other unrelated parts of the application.
+<br>**Tactic:** Modular Design and Decoupled Components
+<br>**Purpose:** To simplify updates and maintenance of the application.
+<br>**Explanation:** The modular nature of components in React Native allows for better maintainability. Each component can be updated or fixed in isolation without affecting the rest of the application. This structure supports easier upgrades and changes, reducing the risk of introducing bugs into other unrelated parts of the application.
 <br><br>
 **5. Extensibility**<br>
-<br>Tactic: Reusability of Components across Platforms
-<br>Purpose: To handle growing user bases and feature sets without significant resource increases.
-<br>Explanation: React Native allows components written for one platform to be reused on another (e.g., from iOS to Android) with minimal platform-specific code. This reusability makes it easier to scale applications across different platforms without duplicating effort, supporting faster development cycles and broader reach.
+<br>**Tactic:** Reusability of Components across Platforms
+<br>**Purpose:** To handle growing user bases and feature sets without significant resource increases.
+<br>**Explanation:** React Native allows components written for one platform to be reused on another (e.g., from iOS to Android) with minimal platform-specific code. This reusability makes it easier to scale applications across different platforms without duplicating effort, supporting faster development cycles and broader reach.
 <br><br>
 **6. Security**<br>
-<br>Tactic: Sandbox Environment for JavaScript Execution
-<br>Purpose: To limit the exposure of the native system to potentially harmful scripts.
-<br>Explanation: JavaScript code in React Native runs in a sandboxed environment, meaning it has limited access to the native system and resources. This containment reduces the risk of harmful scripts causing damage to the underlying system, thereby enhancing the application's security.
+<br>**Tactic:** Sandbox Environment for JavaScript Execution
+<br>**Purpose:** To limit the exposure of the native system to potentially harmful scripts.
+<br>**Explanation:** JavaScript code in React Native runs in a sandboxed environment, meaning it has limited access to the native system and resources. This containment reduces the risk of harmful scripts causing damage to the underlying system, thereby enhancing the application's security.
