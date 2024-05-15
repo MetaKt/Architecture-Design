@@ -19,6 +19,33 @@ https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/
 |Julieta|**Documentation Collection and Analysis** <li>Responsible for gathering all relevant documents and materials, including technical documents, user manuals, and development guides.</li> <li> Organize and analyze the collected materials to provide necessary background information for the architecture recovery.</li>|
 |Parkin| **Code Analysis** <li>Analyze the system's structure, components, and dependencies through code reviews and static analysis tools.</li> <li>Understand the runtime behavior and component interactions using test cases, log analysis, and performance monitoring.</li> <li> Combine automated tools and manual inspection to recover the software architecture from the codebase.</li>|
 
+# Table of Contents
+
+<details open align="left">
+  <summary><b>Table of Contents</b></summary>
+
+- [Table of Contents]
+- [**1 - Introduction**]
+  - [**1.1 - Description**]
+  - [**1.2 - File Organisation**]
+  - [**1.3 - Overview of React Native**]
+- [**2 - Stakeholder Analysis**]
+  - [**2.1 - Stakeholders by Category**]
+    - [**2.1.1 - Acquirers**]
+    - [**2.1.2 - Assessors**]
+    - [**2.1.3 - Communicators**]
+    - [**2.1.4 - Developers**]
+    - [**2.1.5 - Maintainers**]
+    - [**2.1.6 - Production Engineers**]
+    - [**2.1.7 - Suppliers**]
+    - [**2.1.8 - Support Staff**]
+    - [**2.1.9 - System Administrators**]
+    - [**2.1.10 - Testers**]
+    - [**2.1.11 - Users**]
+    - [**2.1.12 - Competitors**]
+  - [**2.2 - Stakeholder Influence**]
+  - [**2.3 - Requirements Analysis**]
+
 
 ## Abstract
 This research paper delves into the software architecture of React Native, a prominent open-source framework for building mobile applications. Renowned for its cross-platform compatibility and efficiency, React Native empowers developers to create native-like experiences across iOS and Android platforms using a single codebase. 
@@ -33,13 +60,13 @@ This documentation is created to provide a comprehensive understanding of the Re
 **The file structure of this document will be organized into the following chapters:**
 <br>
 <br>
-"Chapter 2: Stakeholders & Requirement Analysis"...
+Chapter 2: Stakeholders & Requirement Analysis:focuses on looking outward in terms of the usage of the system by having an explicit stakeholder analysis based on available online documentations, as well as the activity on their open-source Github repository.
 <br>
-"Chapter 3: Overview of the Architecture "...
+Chapter 3: Overview of the Architecture: its mainly about some early design decisions of react native framework and different diagrams to understand better how the framwork works. Even more it also provides the new arquitecture of the framwork and whats the relationship between the arquitecture and QA(quality assurance)
 <br>
-"Chapter 4: React Native Architecture Patterns and Tactics"...
+Chapter 4: React Native Architecture Patterns and Tactics: Here will be provided different patterns and tactics that were used to develop the framework.
 <br>
-"Chapter 5: Conclusion"...
+Chapter 5: Conclusion:the conclusion highlights React Native's innovative architecture and its impact on key quality attributes, emphasizing performance. while also emphasizing the importance of continuous learning, adaptation, and best practices for successful project outcomes.
 <br>
 
 ### 1.3 Overview of React Native
