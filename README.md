@@ -136,11 +136,10 @@ Main Modules of React Native and their interaction between each other.
 <li><b>Native Modules:</b> These modules expose native functionalities to JavaScript. For example, if an app needs to access the device’s camera or GPS, native modules for these capabilities will be invoked. Developers can also create their own native modules to expose additional native functions to JavaScript. It receives commands from the Bridge and executes native code, interfacing with the device's hardware and other native libraries. It may also utilize Native Components to render native UI elements or perform functions.</li>
 <li><b>Native Components:</b> Similar to native modules, native components are actual UI elements built using native code that can be controlled from JavaScript. These are wrapped inside React components so that they can be composed into the React component hierarchy. It used to render UI components on the screen. These components are often direct representations of native views.</li>
 <li><b>Utilities Module: </b> This includes a set of utility functions and helpers that support the functioning of the framework. For example, utilities for handling layout calculations (like Yoga, a layout engine that translates React's flexible box layout into native view layouts), network requests, image handling, and other backend operations. It may be utilized by any of the other modules (especially Native Modules and Components) to perform specific tasks that support the main functionality, like handling layouts (using Yoga for example), or managing asynchronous network calls.</li>
-<li><b>Overall Flow From JavaScript to Native:</b>JavaScript code defining components and their behaviors is executed in the JavaScript Runtime. Changes that need native functionality pass through the Bridge to either Native Modules or directly to Native Components.
+<li><b>Overall Flow From JavaScript to Native: </b>JavaScript code defining components and their behaviors is executed in the JavaScript Runtime. Changes that need native functionality pass through the Bridge to either Native Modules or directly to Native Components.
 From Native to JavaScript: Native Modules might collect data or perform operations that need to update the JavaScript side. These updates pass back through the Bridge to the JavaScript Runtime, which then updates the React Components accordingly.</li>
 
-<br>
-<br>
+
 ![图片2](https://github.com/MetaKt/Architecture-Design/assets/131533232/b9bc15de-2196-4bd0-8b2f-560cdcfd552e)
 
 In React Native, the distinction between these two types of arrows helps clarify the nature of communication:
@@ -152,8 +151,7 @@ In React Native, the distinction between these two types of arrows helps clarify
 **QA: Performance, Extensibility, Reliability**
 **Description:** This view focuses on the components involved in execution and data processing, including runtime components like the JavaScript Engine (like JavaScriptCore or Hermes), the Bridge, and native components. It illustrates how data flows between these components and how they communicate, which is vital for optimizing performance and ensuring reliable data handling.
 
-<br>
-<br>
+
 ![图片3](https://github.com/MetaKt/Architecture-Design/assets/131533232/09213d5d-c145-43b6-8a4e-101dc4d03ed6)
 
 
@@ -162,7 +160,7 @@ The Component and Connector View (C&C View) of the React Native framework provid
 **Components**
 <li><b>React Components:</b> These are the building blocks of a React Native application. React components define the UI and manage the state and lifecycle of the views they represent. Each component corresponds to a native view, but the definition and logic are written in JavaScript using React's declarative syntax.</li>
 <li><b>JavaScript Runtime:</b> This is the environment where the JavaScript code executes. In the context of React Native, this often refers to JavaScriptCore on iOS or V8/JavaScriptCore on Android (depending on configuration and version).</li>
-<li><b>Native Modules:/b> These modules bridge React Native applications with the device's native capabilities such as camera access, GPS, accelerometer, etc. Native modules are custom Objective-C, Swift, Java, or Kotlin classes that expose their methods to JavaScript.</li>
+<li><b>Native Modules:</b> These modules bridge React Native applications with the device's native capabilities such as camera access, GPS, accelerometer, etc. Native modules are custom Objective-C, Swift, Java, or Kotlin classes that expose their methods to JavaScript.</li>
 <li><b>Native Components:</b>These are actual platform-specific UI components (like views, text inputs, images) that are ultimately rendered on the screen. They are controlled via the JavaScript written by developers but are fully native, which helps in achieving near-native performance.</li>
 
 **Connectors**
