@@ -67,6 +67,39 @@ React Native's architecture is designed to allow developers to leverage the expr
 **Stakeholders analysis**
 |Stakeholders|Description|
 | :------: | :--------: |
+|Meta (formerly Facebook)|As the creator and primary maintainer of React Native, Meta is responsible for strategic direction, major updates, and maintaining the framework's integrity. They ensure the platform remains innovative and robust to serve a wide array of developers and companies.|
+|Software| Developers are the primary users of React Native. They rely on it.|
+|Developers|capabilities to build cross-platform mobile applications efficiently. Their needs influence feature development, usability improvements, and documentation quality.|
+|Mobile App Development Companies|These companies utilize React Native to deliver mobile solutions to their clients. They are concerned with the framework's ability to integrate smoothly with other systems, its performance, and its long-term viability for maintaining and scaling mobile applications.|
+|Project Managers|Project managers overseeing React Native projects focus on the framework's ability to meet project timelines, budgets, and quality standards. They are interested in features that improve manageability and predictability, such as reliable build tools and efficient deployment processes.|
+|End Users|Although not directly interacting with the framework, end users are affected by the performance, stability, and usability of apps developed with React Native. Their satisfaction is crucial as it impacts the reputation and success of the applications built on this framework.|
+|Open-Source Community|This includes individual contributors, third-party service providers, and educators who contribute to the React Native ecosystem through code contributions, plugins, tutorials, and support. This community helps drive the evolution of the framework, ensuring it remains relevant and effective.|
+|Integrators and Technology Partners|Companies that provide tools, libraries, and APIs that integrate with React Native. They need the framework to be stable and extensible to support a broad range of functionalities and ensure seamless integration of their products.|
+These stakeholders each have distinct roles and contributions toward the development, sustainability, and proliferation of React Native, reflecting a broad and dynamic ecosystem. Their diverse needs and feedback help shape the framework's features, documentation, and support structures.
+
+**2.2 Requirement analysis**
+<br>
+**2.2.1 Functional Requirements for React Native**
+|Functional Requirements|Description|
+| :------: | :--------: |
+|Cross-Platform Compatibility|React Native must enable the development of applications that function seamlessly across diverse operating systems such as iOS, Android, and potentially other platforms like Windows or web browsers. This involves using the same JavaScript codebase to deploy native applications across all platforms, ensuring that components adapt and perform well in each environment.|
+|Component-Based Architecture|The framework should support a modular architecture where applications are built using discrete, encapsulated components that manage their own state and lifecycle. This architecture should facilitate the reuse of code and simplify the development process by allowing developers to update and maintain individual components without affecting the whole application.|
+|Native Component Integration|React Native should provide robust support for integrating with native platform components and APIs. This includes accessing device-specific hardware features like cameras, accelerometers, and GPS, as well as software capabilities such as push notifications and platform-specific UI components.|
+|Hot Reloading|The framework should provide comprehensive debugging tools that help developers identify and resolve issues efficiently. These tools should offer features like performance profiling, state and prop inspection, and visual layout debugging.|
+|Third-Party Plugin Integration|React Native should allow for easy integration with third-party plugins and libraries to extend the functionality of applications. This includes support for a wide range of community-driven packages for additional UI elements, connectivity options, or backend integrations.|
+|Debugging Tools|The framework should provide comprehensive debugging tools that help developers identify and resolve issues efficiently. These tools should offer features like performance profiling, state and prop inspection, and visual layout debugging.|
+|Accessibility Support|React Native applications should support accessibility features that make apps usable by people with disabilities. This includes support for screen readers, keyboard navigation, and adherence to accessible design guidelines such as the Web Content Accessibility Guidelines (WCAG) and the Americans with Disabilities Act (ADA).|
+|Performance Optimization|The framework should include optimization strategies for high performance, focusing on efficient network communication, responsive UI rendering, and minimal memory usage. Techniques might include lazy loading of components, efficient data fetching strategies, and optimized state management.|
+|Push Notifications|React Native should provide a straightforward method to implement push notifications across different platforms, allowing apps to maintain engagement with users through timely alerts and messages.|
+
+<br>
+
+**2.2.2 Key Quality Attributes for React Native**
+|Key Quality Attributes|Description|
+| :------: | :--------: |
+|Performance|The system must ensure high responsiveness and efficient resource utilization, particularly in terms of CPU usage and memory management, to handle complex operations and large datasets smoothly across different devices.|
+|Usability|The framework should be easy to use for developers at all skill levels, featuring clear documentation, comprehensive error messages, and a straightforward setup process to facilitate a smooth development experience.|
+|Reliability|React Native must provide a stable foundation that consistently performs well across various devices and operating systems, ensuring that applications are dependable and function correctly under diverse conditions.|
 
 ## 3 Overview of The Architecture
 
