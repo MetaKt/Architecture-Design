@@ -75,6 +75,7 @@ React Native's architecture is designed to allow developers to leverage the expr
 |End Users|Although not directly interacting with the framework, end users are affected by the performance, stability, and usability of apps developed with React Native. Their satisfaction is crucial as it impacts the reputation and success of the applications built on this framework.|
 |Open-Source Community|This includes individual contributors, third-party service providers, and educators who contribute to the React Native ecosystem through code contributions, plugins, tutorials, and support. This community helps drive the evolution of the framework, ensuring it remains relevant and effective.|
 |Integrators and Technology Partners|Companies that provide tools, libraries, and APIs that integrate with React Native. They need the framework to be stable and extensible to support a broad range of functionalities and ensure seamless integration of their products.|
+<br>
 These stakeholders each have distinct roles and contributions toward the development, sustainability, and proliferation of React Native, reflecting a broad and dynamic ecosystem. Their diverse needs and feedback help shape the framework's features, documentation, and support structures.
 
 **2.2 Requirement analysis**
