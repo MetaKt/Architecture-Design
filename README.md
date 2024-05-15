@@ -83,6 +83,7 @@ React Native's architecture is designed to allow developers to leverage the expr
 <br>
 These stakeholders each have distinct roles and contributions toward the development, sustainability, and proliferation of React Native, reflecting a broad and dynamic ecosystem. Their diverse needs and feedback help shape the framework's features, documentation, and support structures.
 <br>
+<br>
 
 **2.2 Requirement analysis**
 <br>
