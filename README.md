@@ -88,6 +88,7 @@ These stakeholders each have distinct roles and contributions toward the develop
 
 **2.2 Requirement analysis**
 <br>
+<br>
 **2.2.1 Functional Requirements for React Native**
 |Functional Requirements|Description|
 | :------: | :--------: |
