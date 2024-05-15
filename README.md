@@ -117,7 +117,7 @@ These requirements are critical for ensuring that React Native continues to prov
 **2.2.3 Connection between stakeholders and key quality attributes**
 |Stackholders|key quality attributes|Descriptions |
 | :------: | :--------: | :---------------------: |
-|Meta (Facebook)|Innovation and Extensibility <br> Security |As the maintainer and innovator behind React Native, Meta focuses on ensuring the framework can scale and adapt to new technological advancements, maintaining a leading edge in the market. <br> Meta also prioritizes the security of the framework to protect users and maintain trust.|
+|Meta (Facebook)|Innovation and Extensibility <br><br> Security |As the maintainer and innovator behind React Native, Meta focuses on ensuring the framework can scale and adapt to new technological advancements, maintaining a leading edge in the market. <br><br> Meta also prioritizes the security of the framework to protect users and maintain trust.|
  
 
 ## 3 Overview of The Architecture
