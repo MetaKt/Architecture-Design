@@ -32,6 +32,7 @@ This documentation is created to provide a comprehensive understanding of the Re
 ### 1.2 File organization
 **The file structure of this document will be organized into the following chapters:**
 <br>
+<br>
 "Chapter 2: Stakeholders & Requirement Analysis"...
 <br>
 "Chapter 3: Overview of the Architecture "...
