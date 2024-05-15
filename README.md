@@ -398,7 +398,7 @@ React Native's architecture, which includes the use of a bridge to communicate b
 - Native Modules: While React Native uses native modules that can potentially offer better security than web-based interfaces, each native integration must be secured appropriately, as these can also introduce vulnerabilities if not correctly handled.
 
 
-### 4. React Native Architecture Patterns and Tactics
+## 4. React Native Architecture Patterns and Tactics
 
 
 React Native primarily employs a Component-Based Architecture (CBA) pattern, which is a common approach used in modern software development to enhance modularity and facilitate reuse. This pattern is especially effective in user interface development frameworks, such as React Native, where UI components can be encapsulated as reusable modules.Key aspects of React Native’s Component-Based Architecture include:
@@ -476,7 +476,7 @@ In summary, React Native’s use of the broker pattern through its Bridge compon
 <br>**Explanation:** JavaScript code in React Native runs in a sandboxed environment, meaning it has limited access to the native system and resources. This containment reduces the risk of harmful scripts causing damage to the underlying system, thereby enhancing the application's security.
 
 
-### 5. Conclusion
+## 5. Conclusion
 
 
    In conclusion, the documentation has explored the complex and innovative architecture of the React Native framework, highlighting its significant impact on key quality attributes such as performance, reliability, extensibility, maintainability, and security. Central to its architectural strategy, React Native employs a bridge to facilitate seamless communication between JavaScript and native platform components, which enhances performance while ensuring near-native user experiences. The component-based structure of React Native is a critical factor in its ability to provide high reliability and maintainability, enabling isolated development and updates of features without widespread impacts on the system.
