@@ -120,6 +120,7 @@ These stakeholders each have distinct roles and contributions toward the develop
 <br>
 These requirements are critical for ensuring that React Native continues to provide a robust platform for mobile app development that leverages the benefits of React along with the capabilities of native platforms.
 <br>
+<br>
 
 **2.2.3 Connection between stakeholders and key quality attributes**
 |Stackholders|key quality attributes|Descriptions |
@@ -137,6 +138,7 @@ These requirements are critical for ensuring that React Native continues to prov
 <br>
 Each stakeholder group interacts with React Native's quality attributes based on their specific roles and needs within the ecosystem. Understanding these links helps in prioritizing development efforts, support, and communications to align with the expectations and requirements of each stakeholder group.
 <br>
+<br>
 
 **2.2.4 The most important key quality attributes**
 The importance of key quality attributes can vary depending on the specific context of a software system, its use cases, and the expectations of its stakeholders. For React Native, which is used for developing cross-platform mobile applications, certain key quality attributes typically stand out as particularly crucial:
@@ -150,6 +152,7 @@ The importance of key quality attributes can vary depending on the specific cont
 |Security|Protecting user data and ensuring the integrity of communications are crucial, especially as mobile applications often handle sensitive personal information.|
 <br>
 These attributes are fundamental for ensuring that applications built with React Native meet the high standards expected by users and developers alike. Focusing on these attributes can help guide development priorities and ensure that the framework remains robust and competitive in the fast-evolving landscape of mobile development.
+<br>
 <br>
 
 **2.3 Business Context of React Native Framework**
@@ -165,6 +168,7 @@ These attributes are fundamental for ensuring that applications built with React
 <br>
 
 <b>Regulatory and Compliance Needs: </b>Depending on the industry, applications built with React Native may need to comply with various data protection and privacy regulations, such as GDPR in Europe or HIPAA in healthcare applications in the United States.
+<br>
 <br>
 
 **2.4 Technical Context of React Native Framework**
@@ -186,6 +190,7 @@ These attributes are fundamental for ensuring that applications built with React
 <br>
 
 Understanding the business and technical contexts of React Native helps stakeholders align their strategies and operations with the framework’s capabilities and limitations, ensuring effective and efficient application development and deployment.
+<br>
 <br>
 
 ## 3 Overview of The Architecture
