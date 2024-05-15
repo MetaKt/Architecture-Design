@@ -117,8 +117,69 @@ These requirements are critical for ensuring that React Native continues to prov
 **2.2.3 Connection between stakeholders and key quality attributes**
 |Stackholders|key quality attributes|Descriptions |
 | :------: | :--------: | :---------------------: |
-|Meta (Facebook)|Innovation and Extensibility <br><br> Security |As the maintainer and innovator behind React Native, Meta focuses on ensuring the framework can scale and adapt to new technological advancements, maintaining a leading edge in the market. <br><br> Meta also prioritizes the security of the framework to protect users and maintain trust.|
- 
+|Meta (Facebook)|Innovation and Extensibility| As the maintainer and innovator behind React Native, Meta focuses on ensuring the framework can scale and adapt to new technological advancements, maintaining a leading edge in the market.|
+||Security|Meta also prioritizes the security of the framework to protect users and maintain trust.|
+|Software Developers|Usability and Testability|Developers require a framework that is easy to learn and use, with robust testing capabilities to ensure their applications function correctly across platforms.|
+||	Performance|Developers need React Native to perform efficiently to create smooth and responsive applications.|
+|Mobile App Development Companies|Reliability and Maintainability|These companies need reliable frameworks that are easy to maintain over time, considering they often manage multiple projects and clients.|
+|Project Managers|Maintainability and Extensibility|The ability to maintain and scale applications easily is key to managing timelines and budgets effectively.|
+|End Users|Reliability and Performance|End users are directly impacted by the reliability and performance of the applications they use, which affects user satisfaction and app ratings.|
+|Open-Source Community|Extensibility|Community members value a framework that is extensible and customizable, allowing them to contribute effectively.|
+|Integrators and Technology Partners|Interoperability and Compatibility|These stakeholders need React Native to be compatible with a wide range of other tools and systems to ensure seamless integration.|
+||Performance and Security|Ensuring that integrated solutions perform well and are secure is crucial for maintaining the integrity of their offerings.|
+<br>
+Each stakeholder group interacts with React Native's quality attributes based on their specific roles and needs within the ecosystem. Understanding these links helps in prioritizing development efforts, support, and communications to align with the expectations and requirements of each stakeholder group.
+<br>
+
+**2.2.4 The most important key quality attributes**
+The importance of key quality attributes can vary depending on the specific context of a software system, its use cases, and the expectations of its stakeholders. For React Native, which is used for developing cross-platform mobile applications, certain key quality attributes typically stand out as particularly crucial:
+|Key Quality Attributess|Reasons|
+| :------: | :--------: |
+|Performance|This is critical because mobile applications need to run smoothly and efficiently on a wide range of devices, including those with limited resources. High performance enhances user experience by providing faster response times and reducing battery consumption.|
+|Usability|For React Native, usability primarily concerns developers. The framework should be easy to learn and use, have a straightforward setup process, and provide clear error messages and robust debugging tools. Good documentation is also essential.|
+|Reliabilit|	Mobile applications must be reliable, functioning correctly under a variety of conditions and on diverse devices. Reliability in React Native means stability across different versions of iOS and Android and consistent behavior across updates.|
+|Extensibility|As applications grow in complexity and user base, the framework must be able to handle increased loads and more complex data structures without degradation in performance.|
+|Maintainability|Over time, applications need updates, enhancements, and bug fixes. React Native should facilitate easy maintenance, with backward compatibility and minimal downtime for updates.|
+|Security|Protecting user data and ensuring the integrity of communications are crucial, especially as mobile applications often handle sensitive personal information.|
+<br>
+These attributes are fundamental for ensuring that applications built with React Native meet the high standards expected by users and developers alike. Focusing on these attributes can help guide development priorities and ensure that the framework remains robust and competitive in the fast-evolving landscape of mobile development.
+<br>
+
+**2.3 Business Context of React Native Framework**
+<br>
+
+<b>Market Demand and Adoption: </b>React Native was developed by Facebook (now Meta) to address the need for building native mobile applications using JavaScript. This approach caters to a wide array of developers familiar with JavaScript, making it easier to venture into mobile development without the need to learn new programming languages like Swift or Java.
+<br>
+
+<b>Economic Impact: </b>The framework allows companies to speed up their development processes by using a single codebase to deploy on both iOS and Android platforms. This has significant cost-saving implications by reducing development time and resources, while also streamlining the update process.
+<br>
+
+<b>Stakeholder Interest: </b>The primary stakeholders include businesses looking to expand their mobile presence, mobile app developers, and end-users expecting high-performance applications. React Native helps businesses reach their audience on multiple mobile platforms efficiently, which is crucial in today’s mobile-first world.
+<br>
+
+<b>Regulatory and Compliance Needs: </b>Depending on the industry, applications built with React Native may need to comply with various data protection and privacy regulations, such as GDPR in Europe or HIPAA in healthcare applications in the United States.
+<br>
+
+**2.4 Technical Context of React Native Framework**
+<br>
+
+<b>Integration with Existing Technologies: </b>React Native integrates with existing JavaScript libraries and frameworks, allowing developers to use a vast range of tools and libraries they are already familiar with. It also supports integration with native modules, giving it the capability to perform any operation that a native app can do.
+<br>
+
+<b>Infrastructure and Platform Support: </b>React Native applications are built using JavaScript, but they interact with native platform components through a bridge that enables communication between the JavaScript and native code. This architecture supports both iOS and Android platforms, leveraging the native components of these platforms to render UIs.
+<br>
+
+<b>Performance Considerations: </b>While React Native enables rapid development across platforms, performance optimization is a key concern due to the additional layer of the bridge. Performance strategies may include optimizing the JavaScript code, efficient data fetching, and minimizing the use of the bridge where possible.
+<br>
+
+<b>Security Architecture: </b>React Native must be secured against common vulnerabilities found in mobile applications. This includes secure storage of data, secure communication over the network, and proper handling of user inputs to prevent issues like injection attacks.
+<br>
+
+<b>Deployment and Maintenance Tools: </b>React Native is supported by a range of tools for development, testing, debugging, and deployment. Tools like Metro bundler for JavaScript bundling, and various plugins for performance monitoring and debugging are essential parts of the technical ecosystem.
+<br>
+
+Understanding the business and technical contexts of React Native helps stakeholders align their strategies and operations with the framework’s capabilities and limitations, ensuring effective and efficient application development and deployment.
+<br>
 
 ## 3 Overview of The Architecture
 
