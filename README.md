@@ -139,8 +139,14 @@ Main Modules of React Native and their interaction between each other.
 <li><b>Overall Flow From JavaScript to Native:</b>JavaScript code defining components and their behaviors is executed in the JavaScript Runtime. Changes that need native functionality pass through the Bridge to either Native Modules or directly to Native Components.
 From Native to JavaScript: Native Modules might collect data or perform operations that need to update the JavaScript side. These updates pass back through the Bridge to the JavaScript Runtime, which then updates the React Components accordingly.</li>
 
+![图片2](https://github.com/MetaKt/Architecture-Design/assets/131533232/b9bc15de-2196-4bd0-8b2f-560cdcfd552e)
 
-#### 3.2.2 
+In React Native, the distinction between these two types of arrows helps clarify the nature of communication:
+<li>Solid arrows often illustrate the execution flow or direct command and control interactions. For example, when the JavaScript Runtime sends a command to the Bridge, or when the Bridge directly invokes Native Modules or Native Components. These interactions are typically synchronous or have a direct cause-and-effect relationship.</li>
+<li>Dotted arrows used to indicate data being passed back, such as responses from Native Modules to the Bridge, or from the Bridge back to the JavaScript Runtime. These could also represent less direct interactions, such as the use of utilities or services provided by the Utilities Module that support the main functions but do not directly control them.</li>
+
+
+### 3.2.2 
 
 
 
