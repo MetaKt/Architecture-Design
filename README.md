@@ -157,17 +157,32 @@ In React Native, the distinction between these two types of arrows helps clarify
 
 The Component and Connector View (C&C View) of the React Native framework provides an architectural perspective focusing on the runtime components and the interactions (connectors) between them. This view is particularly useful for understanding how different parts of the system interact with each other, which is crucial for both system integration and troubleshooting. Here’s a detailed breakdown of the components and connectors within the React Native architecture:
 
-**Components**
+**Components:**
 <li><b>React Components:</b> These are the building blocks of a React Native application. React components define the UI and manage the state and lifecycle of the views they represent. Each component corresponds to a native view, but the definition and logic are written in JavaScript using React's declarative syntax.</li>
 <li><b>JavaScript Runtime:</b> This is the environment where the JavaScript code executes. In the context of React Native, this often refers to JavaScriptCore on iOS or V8/JavaScriptCore on Android (depending on configuration and version).</li>
 <li><b>Native Modules:</b> These modules bridge React Native applications with the device's native capabilities such as camera access, GPS, accelerometer, etc. Native modules are custom Objective-C, Swift, Java, or Kotlin classes that expose their methods to JavaScript.</li>
 <li><b>Native Components:</b>These are actual platform-specific UI components (like views, text inputs, images) that are ultimately rendered on the screen. They are controlled via the JavaScript written by developers but are fully native, which helps in achieving near-native performance.</li>
 
-**Connectors**
+
+**Connectors:**
 <li><b>Bridge:</b> The bridge is a critical architectural element in React Native. It is responsible for asynchronous communication between the JavaScript runtime and the native side. The bridge serializes messages using a JSON-like format, passing them between the two sides. This mechanism allows the JavaScript code to invoke native methods, subscribe to native events, and vice versa.</li>
 <li><b>Events:</b> Events are a form of connector that facilitate communication from the native components back to JavaScript. For example, a touch event on a native button can trigger a callback in JavaScript, which can then execute some logic like updating the UI or changing the application state.</li>
 <li><b>Commands: </b>Commands are instructions sent from JavaScript to control native components. For example, a command might tell a native video player component to pause or play. These are typically implemented as serialized messages that pass through the bridge.</li>
 <li><b>Callbacks and Promises:</b> Callbacks and promises are used for handling asynchronous operations in React Native. JavaScript can initiate an action on the native side, which performs its operation and then calls back to JavaScript to signal completion, error, or return results. Promises offer a more modern approach to handling asynchronous responses, providing better syntax and error handling compared to traditional callbacks.</li>
 
+### 3.2.3 Process View
+**QA: Performance, Reliability**
+**Description:** This view details the system’s runtime processing and is crucial for understanding how React Native applications execute within a device. It includes the execution of React components, the operation of the Bridge, and interactions with the native platform, all critical for diagnosing performance bottlenecks and ensuring application reliability.
 
+
+The Process View of the React Native framework focuses on the dynamic behavior and runtime operations that manage the execution of processes within the application. This view is crucial for understanding how different parts of the application interact over time, how data flows between these parts, and how tasks are handled asynchronously. Let's delve into the key aspects of this view in the React Native architecture:
+
+
+**Key Threads in React Native**
+<li><b>JavaScript Thread:</b>
+This thread is where your JavaScript code runs. It handles the React component lifecycle, state management, and event handling. The JavaScript thread interprets and executes the JS code, including API calls, touch events, and any other user interaction that drives the application logic.</li>
+<li><b>Main Thread (UI Thread):</b>
+The main thread, often referred to as the UI thread, is primarily responsible for rendering the native components and managing the UI updates on the screen. It is critical for maintaining a smooth user interface. Any blocking operations on this thread can lead to UI jank and poor user experience.</li>
+<li><b>Shadow Thread (Layout Thread):</b>
+This thread is responsible for calculating the layout using the Yoga layout engine. The layout calculations are based on the Flexbox algorithm, which determines the size and position of UI components. Once computed, the layout information is sent back to the main thread to update the UI accordingly.</li>
 
