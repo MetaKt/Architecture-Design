@@ -70,7 +70,7 @@ React Native's architecture is designed to allow developers to leverage the expr
 ## 2 2.	Stakeholders & Requirement Analysis
 <br>
 
-**Stakeholders analysis**
+**2.1 Stakeholders analysis**
 |Stakeholders|Description|
 | :------: | :--------: |
 |Meta (formerly Facebook)|As the creator and primary maintainer of React Native, Meta is responsible for strategic direction, major updates, and maintaining the framework's integrity. They ensure the platform remains innovative and robust to serve a wide array of developers and companies.|
