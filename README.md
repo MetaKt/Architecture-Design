@@ -10,6 +10,9 @@ https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/
 | 5/4/2024 | Week 6 | Description, Identify Stakeholders, Quality Concerns |
 | 18/4/2024 | Week 8 | introduction, Identify Stakeholders, Quality Concerns |
 | 21/4/2024 | Week 9 | Architecture-Design Document 1.0| 
+| 27/4/2024 | Week 10 | stakeholders and requirements analysis|
+| 08/5/2024 | Week 11 | update arquitecture pattern and tactics|
+| 14/5/2024 | Week 12 | final arquitecture design document| 
 
 ## Task Allocation
 | Team Member | Tasks |
@@ -399,16 +402,6 @@ React Native's architecture, which includes the use of a bridge to communicate b
 
 
 ## 4. React Native Architecture Patterns and Tactics
-
-
-React Native primarily employs a Component-Based Architecture (CBA) pattern, which is a common approach used in modern software development to enhance modularity and facilitate reuse. This pattern is especially effective in user interface development frameworks, such as React Native, where UI components can be encapsulated as reusable modules.Key aspects of React Native’s Component-Based Architecture include:
-
-**Encapsulation:** Components in React Native are self-contained with their own logic and styling. This encapsulation helps in managing complexity, as each component maintains its own state and controls its rendering.
-
-**Reusability:** Components are designed to be reusable, which can significantly speed up development. A single component can be used across different parts of an application or even in different applications.
-
-**Composition:** Complex user interfaces can be built by composing smaller components into larger ones. This hierarchical composition helps manage large applications and makes the code easier to understand.
-
 
 ### 4.1 React Architecture Patterns
 
