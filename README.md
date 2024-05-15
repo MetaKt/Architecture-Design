@@ -244,5 +244,15 @@ In June 2018, Facebook announced a plan to refactor the RN architecture. The new
 <li><b>Native Layer:</b> Streamlined core modules, with non-core parts separated out as community modules for independent updates and maintenance. Enhanced type checking.</li>
 
 
+### 3.3 Relationship Between The Architecture and QA
+
+
+The architecture of React Native significantly impacts several key quality attributes that are crucial for the development and performance of mobile applications. Here's how React Native's architecture affects performance, reliability, Extensibility, maintainability, and security:
+
+**1. Performance**
+React Native's architecture, which includes the use of a bridge to communicate between the JavaScript code and the native components, has both benefits and challenges regarding performance:
+- JavaScript to Native Bridge: This architecture allows React Native to utilize the native components of each platform (iOS, Android), providing near-native performance. However, the bridge itself can become a bottleneck because each interaction between JavaScript and the native side involves serialization and deserialization, which can be costly in terms of performance, especially for high-volume, real-time interactions.
+- Asynchronous Execution: React Native's non-blocking, asynchronous execution model helps maintain smooth UI performance by preventing JavaScript operations from blocking the UI thread.
+
 
 
