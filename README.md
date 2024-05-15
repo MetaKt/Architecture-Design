@@ -234,5 +234,15 @@ In June 2018, Facebook announced a plan to refactor the RN architecture. The new
 
 
 
+![图片6](https://github.com/MetaKt/Architecture-Design/assets/131533232/d11df95d-b353-4898-b44c-7907dbf2c333)
+
+
+
+**Main Changes in the New Architecture:**
+<li><b>JavaScript Layer:</b> Supports enhanced features of React 16+. JavaScript static type checking (CodeGen). Introduction of JSI (JavaScript Interface), allowing for the replacement of different JavaScript engines. This supports direct communication between JavaScript and Native.</li>
+<li><b>Bridge Layer:</b> Divided into two parts: Fabric and TurboModules, which are responsible for UI management and native modules, respectively. Without bridge, the performance will improve a lot.</li>
+<li><b>Native Layer:</b> Streamlined core modules, with non-core parts separated out as community modules for independent updates and maintenance. Enhanced type checking.</li>
+
+
 
 
