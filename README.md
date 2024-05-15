@@ -1,7 +1,7 @@
 # Architecture-Design
 ### Draft Document
 
-This document is for gathering the information we have researched, in order to keep in one place. 
+This document is for gathering the information we have researched, in order to keep it in one place. 
 https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/edit?usp=sharing
 
 ## Work Update
@@ -43,10 +43,12 @@ As React Native has been rapidly evolving and widely adopted, the complexity of 
 <br>
 
 **1.3.1 What is the story of React Native?**
+<br>
 React Native was created by Jordan Walke, a software engineer at Facebook. It was first deployed on Facebook's News Feed in 2011 and later on Instagram.com in 2012. React was open-sourced at JSConf US in May 2013. It has since become one of the most popular JavaScript libraries for web development, with a large community and ecosystem. Meta Platforms, Inc. (formerly known as Facebook) is still the owner of the React Native framework.
 <br>
 
 **1.3.2 What is the importance of React Native in the Modern Web Development?**
+<br>
 React's component-based architecture not only helps in building scalable applications but also makes it easier to maintain and update them. It's used by many large companies and startups alike, proving its capability to handle complex applications efficiently. React's ecosystem includes tools like Create React App, Next.js, and Gatsby, which help developers start projects quickly and incorporate best practices.
 
 React fundamentally changed the way developers build web applications by introducing an efficient and flexible model for constructing user interfaces. Its emphasis on component reusability, the virtual DOM, and a vibrant ecosystem makes it a cornerstone technology for modern web development.
