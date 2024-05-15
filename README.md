@@ -118,7 +118,20 @@ Here are some key early architectural decisions:
 
 ### 3.2 Viewpoints (Overview Architecture of React)
 
-#### 3.2.1 Moduel View
+### 3.2.1 Module View
+**QA: Maintainability, Testability**
+**Description:** This view describes the organization and structure of the software in terms of code components and their relationships. In React Native, the module view helps illustrate how different JavaScript modules and native code modules interact, which is crucial for understanding dependencies and managing code changes efficiently.
+
+**Architecture Model**
+The basic architecture model is as follows:
+
+![图片1](https://github.com/MetaKt/Architecture-Design/assets/131533232/88b021a8-e340-411e-936c-40a66e501c5d)
+
+The Module View of the React Native framework provides an understanding of how different software modules interact within the architecture, focusing primarily on the organization of the codebase and the functionality of individual modules. This view is crucial for developers who are looking to integrate or modify components within the framework, or for those designing systems that will extend or interact with React Native. Here’s a detailed breakdown of the main modules in the React Native architecture:
+
+Main Modules of React Native and their interaction between each other.
+<li> **React Components Module:** This module contains all the React components that developers use to build their applications. It includes everything from basic components like View, Text, and Button, to more complex components like ScrollView and ListView. These components are what developers interact with directly in their JavaScript code. React Components interact directly with the JavaScript Runtime. </li>
+
 #### 3.2.2 
 
 
