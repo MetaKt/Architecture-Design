@@ -62,28 +62,11 @@ React fundamentally changed the way developers build web applications by introdu
 
 React Native's architecture is designed to allow developers to leverage the expressive power and flexibility of JavaScript while retaining the performance and feel of native applications. This combination has made React Native a popular choice among developers looking to create cross-platform applications with a single codebase.
 
-## 2 Stakeholders analysis
-In this section we will analyze the stakeholders of React Native. 
+## 2 2.	Stakeholders & Requirement Analysis
 
-### 2.1 Stakeholders
-* **Meta (formerly Facebook):** They created React Native and are concerned with its long-term maintainability, performance across platforms, and fostering a healthy developer community.
-* **Software Developers:** Developers using React Native are concerned with development speed, ease of learning, cross-platform compatibility, and access to a rich library of components and tools.
-* **The Open-Source Community:** Contributors value code quality, adherence to best practices, modularity, and ease of contribution.
-* **Mobile App Development Companies:** Companies using React Native prioritize development efficiency, app performance on target devices, and access to native functionalities.
-* **End Users:** Users that use the applications developed with React Native.
-* **Project Managers:** Oversee development projects using React Native.
-* **Corporate Sponsors:** Companies that invest in React Native for their product development.
-  
-### 2.2 Quality Concerns from Each Type of Stakeholders
-| Type of Stakeholders | Quality Concerns |
-| :-------: | ------------------------------------ |
-|Software Developers| <li>Maintainanility <li>Performance <li>Cross-Platform Compatibility|
-|Mobile APP Development Companies| <li>Code Quality <li>Documentation quality <li>Ease of Contribution|
-|Project Managers| <li>Time-to-Market <li>Development Cost <li>Resource Efficiency|
-|End Users| <li>App Performance <li>Stability <li>Usability |
-|Corporate Sponsors| <li>Security <li>Scalability <li>Long-term Viability|
-|Open-Source Community| <li>Accessiblity of Contribution <li>Responsivenes to Community Feedback <li>Innovation and Feature Richness|
-
+**Stakeholders analysis**
+|Stakeholders|Description|
+| :------: | :--------: |
 
 ## 3 Overview of The Architecture
 
