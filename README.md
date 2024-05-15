@@ -103,7 +103,15 @@ In this section we will analyze the stakeholders of React Native.
 |Open-Source Community| <li>Accessiblity of Contribution <li>Responsivenes to Community Feedback <li>Innovation and Feature Richness|
 
 
+## 3 Overview of The Architecture
 
+### 3.1 Early Architecture Design Decisions
+The early architecture design decisions of the React Native framework were crucial in shaping its development philosophy and operational functionality. These decisions highlight how React Native bridges the gap between web technologies and native mobile development. Here are some key early architectural decisions:
+| Early Architectural Decisions | Impact | Key Quality Attributes
+| ------------------------------------ | ------------------------------------ | ------------------------------------|
+| **1. Use of JavaScript:** To leverage JavaScript and the React library for building mobile apps. This choice was driven by the success of React in the web ecosystem and the growing popularity of JavaScript as a versatile programming language.| **Positive impact:** This decision allowed web developers to use their existing JavaScript knowledge to build mobile applications, thereby reducing the learning curve and accelerating mobile development.
+**Negative impact:** JavaScript's dynamic nature can introduce security vulnerabilities, such as injection attacks or other JavaScript-specific risks, requiring developers to be vigilant and implement additional security measures.| **Usability & Portability:**
+By leveraging JavaScript and React, React Native taps into the existing skill set of web developers, making it more accessible and reducing the learning curve. This decision enhances usability for developers and allows for code portability between web and mobile platforms.|
 
 
 
