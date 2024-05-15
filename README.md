@@ -130,7 +130,7 @@ The basic architecture model is as follows:
 The Module View of the React Native framework provides an understanding of how different software modules interact within the architecture, focusing primarily on the organization of the codebase and the functionality of individual modules. This view is crucial for developers who are looking to integrate or modify components within the framework, or for those designing systems that will extend or interact with React Native. Here’s a detailed breakdown of the main modules in the React Native architecture:
 
 Main Modules of React Native and their interaction between each other.
-<li> **React Components Module:** This module contains all the React components that developers use to build their applications. It includes everything from basic components like View, Text, and Button, to more complex components like ScrollView and ListView. These components are what developers interact with directly in their JavaScript code. React Components interact directly with the JavaScript Runtime. </li>
+<li> <b>React Components Module:</b> This module contains all the React components that developers use to build their applications. It includes everything from basic components like View, Text, and Button, to more complex components like ScrollView and ListView. These components are what developers interact with directly in their JavaScript code. React Components interact directly with the JavaScript Runtime. </li>
 
 #### 3.2.2 
 
