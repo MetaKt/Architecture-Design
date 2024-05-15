@@ -102,7 +102,7 @@ React fundamentally changed the way developers build web applications by introdu
 
 React Native's architecture is designed to allow developers to leverage the expressive power and flexibility of JavaScript while retaining the performance and feel of native applications. This combination has made React Native a popular choice among developers looking to create cross-platform applications with a single codebase.
 
-## 2 2.	Stakeholders & Requirement Analysis
+## 2.	Stakeholders & Requirement Analysis
 <br>
 
 **2.1 Stakeholders analysis**
