@@ -77,6 +77,7 @@ React Native's architecture is designed to allow developers to leverage the expr
 |Integrators and Technology Partners|Companies that provide tools, libraries, and APIs that integrate with React Native. They need the framework to be stable and extensible to support a broad range of functionalities and ensure seamless integration of their products.|
 <br>
 These stakeholders each have distinct roles and contributions toward the development, sustainability, and proliferation of React Native, reflecting a broad and dynamic ecosystem. Their diverse needs and feedback help shape the framework's features, documentation, and support structures.
+<br>
 
 **2.2 Requirement analysis**
 <br>
@@ -101,6 +102,23 @@ These stakeholders each have distinct roles and contributions toward the develop
 |Performance|The system must ensure high responsiveness and efficient resource utilization, particularly in terms of CPU usage and memory management, to handle complex operations and large datasets smoothly across different devices.|
 |Usability|The framework should be easy to use for developers at all skill levels, featuring clear documentation, comprehensive error messages, and a straightforward setup process to facilitate a smooth development experience.|
 |Reliability|React Native must provide a stable foundation that consistently performs well across various devices and operating systems, ensuring that applications are dependable and function correctly under diverse conditions.|
+|Reliability|React Native must provide a stable foundation that consistently performs well across various devices and operating systems, ensuring that applications are dependable and function correctly under diverse conditions.|
+|Extensibility|The architecture should support scaling both in terms of application complexity and user load, accommodating an increasing number of users, data volume, and integration without degradation in performance.|
+|Extensibility|The architecture should support scaling both in terms of application complexity and user load, accommodating an increasing number of users, data volume, and integration without degradation in performance.|
+|Maintainability|The framework should be easy to update and maintain, supporting backward compatibility and allowing for incremental improvements with minimal disruptions to existing applications.|
+|Security|Strong security measures must be in place to protect sensitive information and prevent vulnerabilities such as SQL injections, XSS attacks, and data breaches, ensuring that applications built with React Native are secure from external threats.|
+|Testability|Support for automated testing frameworks and tools is essential, enabling developers to thoroughly test components and applications to ensure they function correctly and meet expected behaviors.|
+|Portability|The framework should allow applications to be easily transferred and adapted across different environments and platforms with minimal changes, enhancing the versatility of the developed solutions.|
+|Interoperability|React Native should facilitate easy integration with other applications, services, and data sources, ensuring that it can operate within a diverse ecosystem and connect seamlessly with various back-end systems.|
+<br>
+These requirements are critical for ensuring that React Native continues to provide a robust platform for mobile app development that leverages the benefits of React along with the capabilities of native platforms.
+<br>
+
+**2.2.3 Connection between stakeholders and key quality attributes**
+|Stackholders|key quality attributes|Descriptions |
+| :------: | :--------: | :---------------------: |
+|Meta (Facebook)|Innovation and Extensibility|As the maintainer and innovator behind React Native, Meta focuses on ensuring the framework can scale and adapt to new technological advancements, maintaining a leading edge in the market.|
+| |Security|Meta also prioritizes the security of the framework to protect users and maintain trust.|
 
 ## 3 Overview of The Architecture
 
