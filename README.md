@@ -10,9 +10,9 @@ https://docs.google.com/document/d/1ye1I2SVFl36FhlXH07YL651DnFitNfRkhsAFTA1BKFY/
 | 5/4/2024 | Week 6 | Description, Identify Stakeholders, Quality Concerns |
 | 18/4/2024 | Week 8 | introduction, Identify Stakeholders, Quality Concerns |
 | 21/4/2024 | Week 9 | Architecture-Design Document 1.0| 
-| 27/4/2024 | Week 10 | stakeholders and requirements analysis|
-| 08/5/2024 | Week 11 | update arquitecture pattern and tactics|
-| 14/5/2024 | Week 12 | final arquitecture design document| 
+| 27/4/2024 | Week 10 | Stakeholders and requirements analysis|
+| 08/5/2024 | Week 11 | Update architecture pattern and tactics|
+| 14/5/2024 | Week 12 | Final architecture design document| 
 
 ## Task Allocation
 | Team Member | Tasks |
